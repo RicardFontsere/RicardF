@@ -1,0 +1,61 @@
+---
+title: "Tidy your Data !"
+excerpt: "Resources for Data Management in R"
+collection: R
+---
+
+```{r, include=FALSE}
+library(tidyverse)
+```
+
+ 
+## Tibbles vs data.frame
+
+Tibbles have a refined print method that shows only the first 10 rows and each column reports its type, function borrowed from str() :
+
+```{r}
+as_tibble(iris)
+```
+
+You can also control the amount of rows (n) being printed. In this case, we specify width = Inf, which will print all columns
+
+```{r}
+nycflights13::flights %>% 
+  print(n = 10, width = Inf)
+```
+
+## Subsetting
+
+**$ and [[**  can extract by name or position while **$** can only extracts by name:
+
+```{r}
+df <- tibble(
+  x = runif(5),
+  y = rnorm(5)
+)
+#Extract by name
+df$x
+df[["x"]]
+#Extract by position
+df[[1]]
+```
+
+To use these in a pipe, we need to use the special placeholder . :
+```{r}
+df %>% 
+    .$x
+df %>% 
+    .[["x"]]
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+ 
