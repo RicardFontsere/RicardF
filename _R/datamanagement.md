@@ -1,3 +1,10 @@
+---
+title: "Tidy Data"
+excerpt: "Basics of Data Wrangling>"
+collection: R
+---
+
+
     library(tidyverse)
 
 ## Including Code
