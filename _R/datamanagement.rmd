@@ -4,7 +4,7 @@ excerpt: "Basics of Data Wrangling>"
 collection: R
 ---
 
-```{r cars}
+```{r, warning = FALSE, message = FALSE}
 library(tidyverse)
 ```
 
