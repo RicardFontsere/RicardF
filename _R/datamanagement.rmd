@@ -2,6 +2,7 @@
 title: "Tidy Data"
 excerpt: "Basics of Data Wrangling>"
 collection: R
+output: md_document
 ---
 
 ```{r, warning = FALSE, message = FALSE}
