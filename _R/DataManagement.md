@@ -1,6 +1,6 @@
 ---
 title: "Tidy Data"
-permalink: /R/DataManagement
+permalink: /R/datamanagement
 excerpt: "Basics of Data Wrangling>"
 collection: R
 ---
