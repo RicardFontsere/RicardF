@@ -19,26 +19,50 @@
           <span class="nav__sub-title">{{ nav.title }}</span>
         {% endif %}
 
-        {% if nav.children != null %}
-        <ul>
-          {% for child in nav.children %}
-            {% comment %}internal/external URL check{% endcomment %}
-            {% if child.url contains "://" %}
-              {% assign domain = "" %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
+        {% if nav.subfolderitems != null %}
+          <ul>
+            {% for subitem in nav.subfolderitems %}
+              {% comment %}internal/external URL check{% endcomment %}
+              {% if subitem.url contains "://" %}
+                {% assign domain = "" %}
+              {% else %}
+                {% assign domain = base_path %}
+              {% endif %}
 
-            {% comment %}set "active" class on current page{% endcomment %}
-            {% if child.url == page.url %}
-              {% assign active = "active" %}
-            {% else %}
-              {% assign active = "" %}
-            {% endif %}
+              {% comment %}set "active" class on current page{% endcomment %}
+              {% if subitem.url == page.url %}
+                {% assign active = "active" %}
+              {% else %}
+                {% assign active = "" %}
+              {% endif %}
 
-            <li><a href="{{ domain }}{{ child.url }}" class="{{ active }}">{{ child.title }}</a></li>
-          {% endfor %}
-        </ul>
+              <li><a href="{{ domain }}{{ subitem.url }}" class="{{ active }}">{{ subitem.name }}</a>
+              
+              {% if subitem.subsubfolderitems != null %}
+                <ul>
+                  {% for subsubitem in subitem.subsubfolderitems %}
+                    {% comment %}internal/external URL check{% endcomment %}
+                    {% if subsubitem.url contains "://" %}
+                      {% assign domain = "" %}
+                    {% else %}
+                      {% assign domain = base_path %}
+                    {% endif %}
+    
+                    {% comment %}set "active" class on current page{% endcomment %}
+                    {% if subsubitem.url == page.url %}
+                      {% assign active = "active" %}
+                    {% else %}
+                      {% assign active = "" %}
+                    {% endif %}
+    
+                    <li><a href="{{ domain }}{{ subsubitem.url }}" class="{{ active }}">{{ subsubitem.name }}</a></li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+              
+              </li>
+            {% endfor %}
+          </ul>
         {% endif %}
       </li>
     {% endfor %}
