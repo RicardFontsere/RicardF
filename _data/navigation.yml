@@ -1,16 +1,7 @@
 # main links links
 main:
-  - title: "R-R"
-    subfolderitems:
-     - name : "Tidyverse"
-       url: "/tidyverse"
-       subsubfolderitems:
-         - name: "tidy data"
-           url : "/about"
-     - name : "Test3"
-       url : "/pepe"
-  - title: "Guide"
-    url: markdown/
+  - title: "R"
+  - url: R/
 
  # - title: "Teaching"
  #   url: /teaching/    
