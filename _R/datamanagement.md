@@ -26,7 +26,7 @@ You can include R code in the document as follows:
 
 You can also embed plots, for example:
 
-![](ricardfontsere.github.io/images/pressure-1.png)
+![](https://raw.githubusercontent.com/ricardfontsere/ricardfontsere.github.io/main/images/pressure-1.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
