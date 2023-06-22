@@ -10,6 +10,8 @@ main:
            url : "/about"
      - name : "Test3"
        url : "/pepe"
+  - title: "Guide"
+    url: markdown/
 
  # - title: "Teaching"
  #   url: /teaching/    
@@ -23,5 +25,3 @@ main:
  # - title: "CV"
  #   url: /cv/
     
-  - title: "Guide"
-    url: markdown/
