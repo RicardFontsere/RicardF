@@ -1,20 +1,15 @@
 # main links links
 main:
- # - title: "Publications"
- #   url: /publications/
-
   - title: "R-R"
+    url: "/rr"
     subfolderitems:
      - name : "Tidyverse"
-       url: "#"
-       weight: 3
+       url: "/tidyverse"
        subsubfolderitems:
          - name: "tidy data"
-           url : "about/"
-           weight: 2
+           url : "/about"
      - name : "Test3"
-       url : "pepe/"
-       weight : 2
+       url : "/pepe"
 
  # - title: "Teaching"
  #   url: /teaching/    
