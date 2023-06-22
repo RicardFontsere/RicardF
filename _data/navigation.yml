@@ -4,7 +4,17 @@ main:
  #   url: /publications/
 
   - title: "R-resources"
-    url: r/    
+    subfolderitems:
+     - name : "Tidyverse"
+       url: "#"
+       weight: 3
+       subsubfolderitems:
+         - name: "tidy data"
+           url : "about/"
+           weight: 2
+     - name : "Test3"
+       url : "pepe/"
+       weight : 2
 
  # - title: "Teaching"
  #   url: /teaching/    
