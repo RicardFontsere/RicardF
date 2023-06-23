@@ -1,3 +1,11 @@
+---
+title: "Tidy"
+permalink: /R/Tidy
+excerpt: "Basics of Data Wrangling>"
+collection: R
+---
+
+
     library(tidyverse)
 
 ##### **What is tidy data?**
