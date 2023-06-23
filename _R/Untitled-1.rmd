@@ -1,6 +1,6 @@
 ---
 title: "Tidy Data"
-permalink: /R/Tidy
+permalink: /R/hoho
 collection: R
 output: md_document
 ---
