@@ -1,0 +1,40 @@
+---
+title: "Tidy Data"
+permalink: /R/Tidy
+collection: R
+---
+
+library(tidyverse)
+
+```{r, warning = FALSE, message = FALSE}
+library(tidyverse)
+```
+
+##### **What is tidy data?**
+
+There are three interrelated rules which make a dataset tidy:
+
+    1. Each variable must have its own column
+    2. Each observation must have its own row
+    3. Each value must have its own cell
+
+These three rules are interrelated because it is impossible to only satisfy two of the three.
+
+##### **Pivoting**
+
+There are two general ways in which a dataset can be untidy:
+
+    1. One variable might be spread over multiple columns
+    2. One observation might be scattered across multiple rows
+
+In order to tidy such datasets we will use `pivot_longer()` and `pivot_wider()`
+
+###### Longer Pivoting
+
+Longer pivoting a dataset is needed when columns not variables but *values* of a variable. Lets take as an example table4:
+
+```{r}
+table4
+```
+
+table4
