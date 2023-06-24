@@ -8,18 +8,18 @@ collection: R
 
     library(tidyverse)
 
-##### **What is tidy data?**
+#### **What is tidy data?**
 
 There are three interrelated rules which make a dataset tidy:
 
-    1. Each variable must have its own column
-    2. Each observation must have its own row
-    3. Each value must have its own cell
+1. Each variable must have its own column
+2. Each observation must have its own row
+3. Each value must have its own cell
 
 These three rules are interrelated because it is impossible to only
 satisfy two of the three.
 
-##### **Pivoting**
+#### **Pivoting**
 
 There are two general ways in which a dataset can be untidy:
 
@@ -29,7 +29,7 @@ There are two general ways in which a dataset can be untidy:
 In order to tidy such datasets we will use `pivot_longer()` and
 `pivot_wider()`
 
-###### Longer Pivoting
+#### Longer Pivoting
 
 Longer pivoting a dataset is needed when columns not variables but
 *values* of a variable. Lets take as an example table4a:
@@ -89,7 +89,7 @@ we need to use `dplyr::left_join()` :
     ## 5 China       1999  212258 1272915272
     ## 6 China       2000  213766 1280428583
 
-###### Wider Pivoting
+#### Wider Pivoting
 
 Wider pivoting a dataset is needed when an observation is scattered
 across multiple rows, or two columns are “stacked” into one. An example
