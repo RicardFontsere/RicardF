@@ -1,0 +1,762 @@
+<!doctype html>
+<html class="no-js" lang="en"><!--!
+  Oh so you're an inspector?
+  View the source here: https://github.com/maxboeck/mxb
+-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ricard Fontserè</title>
+    <link rel="preload" href="assets/fonts/noe-display-medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preconnect" href="https://webmention.io">
+    <link rel="stylesheet" href="assets/styles/themes.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <!--
+    ######## SEO and Meta
+    <meta name="description" content="I am Ricard Fontserè, an early career scientist.">
+    <meta property="og:title" content="Ricard Fontserè">
+    <meta property="og:description" content="I am Ricard Fontserè, an early career scientist.">
+    <meta property="og:url" content="https://mxb.dev/">
+    <meta property="og:image" content="https://mxb.dev/assets/images/avatar2.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="author" content="Ricard Fontserè">
+    <meta property="og:site_name" content="Max Böck">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:site" content="@mxbck">
+    <meta name="twitter:creator" content="@mxbck">
+    <meta property="fb:app_id" content="127677017332959"> 
+    <link rel="canonical" href="https://mxb.dev/">
+    -->
+    <!-- 
+    ######## Fav Icons for Bookmarking my website 
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png@v=1">
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png@v=1" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png@v=1" sizes="16x16">
+    <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg@v=1" color="#1a1a1a">
+    <link rel="shortcut icon" href="assets/images/favicon/favicon.ico@v=1">
+    
+    <link rel="manifest" href="site.webmanifest">
+    -->
+    <meta name="theme-color" content="#1a1a1a">
+    <link type="application/atom+xml" rel="alternate" href="https://mxb.dev/feed.xml" title="Max Böck">
+    <link type="application/atom+xml" rel="alternate" href="notes/feed.xml" title="Max Böck | Notes">
+    <meta name="view-transition" content="same-origin">
+    <script>
+        (function () {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        })();
+    </script>
+</head>
+
+<body><a href="notes.1.html#main" class="sr-skip-link">skip to main content</a>
+    <div class="titlebar">
+        <div class="titlebar__inner"></div>
+    </div>
+    <div class="hfeed layout" role="document">
+        <div class="themepicker js-themepicker" data-nosnippet hidden>
+            <h3 class="themepicker__title">Select Theme</h3>
+            <ul class="themepicker__list" id="theme-menu">
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Classic'" data-theme="default"><span
+                            class="themepicker__name">Classic</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Dark'" data-theme="dark"><span
+                            class="themepicker__name">Dark</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Koopa Beach'" data-theme="beach"><span
+                            class="themepicker__name">Koopa Beach</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Choco Mountain'" data-theme="choco"><span
+                            class="themepicker__name">Choco Mountain</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Moo Moo Farm'" data-theme="moomoo"><span
+                            class="themepicker__name">Moo Moo Farm</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Bowser&#39;s Castle'" data-theme="bowser"><span
+                            class="themepicker__name">Bowser&#39;s Castle</span> <span
+                            class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Yoshi Valley'" data-theme="yoshi"><span
+                            class="themepicker__name">Yoshi Valley</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Rainbow Road'" data-theme="rainbow"><span
+                            class="themepicker__name">Rainbow Road</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Lobster Life'" data-theme="lobster"><span
+                            class="themepicker__name">Lobster Life</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Hacker News'" data-theme="hackernews"><span
+                            class="themepicker__name">Hacker News</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+            </ul><button class="iconbtn themepicker__close js-themepicker-close"><span class="sr-only">close
+                    themepicker</span> <svg class="icon icon--close" role="img" aria-hidden="true" width="24"
+                    height="24">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="/assets/icons/icons.sprite.svg#icon-close"></use>
+                </svg></button>
+        </div>
+        <header class="header" role="banner">
+            <div class="header__inner container"><a class="header__brand" href="index.html" rel="home"><img
+                        class="header__avatar"
+                        src="data:image/jpeg;base64,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"
+                        width="48" height="48" alt=""> <span class="header__name"><span>Max Böck</span> <span
+                            class="header__verification" aria-hidden="true"><svg class="icon icon--verified"
+                                version="1.1" viewBox="0,0,24,24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z" />
+                            </svg></span></span></a>
+                <div class="header__nav">
+                    <nav class="nav js-nav" role="navigation" tabindex="-1"><button
+                            class="iconbtn nav__togglebtn js-nav-toggle" aria-expanded="false" aria-controls="nav-menu"
+                            aria-label="toggle menu"><span class="menuicon"><span class="menuicon__bar"></span> <span
+                                    class="menuicon__bar"></span> <span class="menuicon__bar"></span> <span
+                                    class="menuicon__bar"></span></span></button>
+                        <div class="nav__content">
+                            <ul class="nav__menu js-nav-menu" id="nav-menu">
+                                <li class="nav__item"><a href="index.html" class="nav__link"><span class="nav__num"
+                                            aria-hidden="true">01</span> Home</a></li>
+                                <li class="nav__item"><a href="blog.1.html" class="nav__link"><span class="nav__num"
+                                            aria-hidden="true">02</span> Writing</a></li>
+                                <li class="nav__item nav__item--active"><a href="notes.1.html#main" class="nav__link"
+                                        aria-current="page"><span class="nav__num" aria-hidden="true">03</span>
+                                        Notes</a></li>
+                                <li class="nav__item"><a href="about/index.html" class="nav__link"><span
+                                            class="nav__num" aria-hidden="true">04</span> About</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav__bg">
+                            <div class="nav__bg__circle"></div>
+                        </div>
+                    </nav><button class="iconbtn header__themebtn js-themepicker-toggle" aria-expanded="false"
+                        aria-controls="theme-menu"><span class="sr-only">toggle theme panel</span> <svg
+                            class="icon icon--theme" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" role="img" aria-hidden="true">
+                            <path
+                                d="M18 4V3c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V6h1v4H9v11c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-9h8V4h-3z" />
+                        </svg></button>
+                </div>
+            </div>
+        </header>
+        <main class="main container" role="main" id="main" tabindex="-1">
+            <div style="display:none" hidden><svg xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <symbol viewBox="0 0 24 24" id="icon-heart">
+                        <path
+                            d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z" />
+                    </symbol>
+                    <symbol viewBox="0 0 24 24" id="icon-message">
+                        <path
+                            d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z" />
+                    </symbol>
+                    <symbol viewBox="0 0 24 24" id="icon-repost">
+                        <path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z" />
+                    </symbol>
+                    <symbol viewBox="0 0 24 24" id="icon-twitter">
+                        <path
+                            d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z" />
+                    </symbol>
+                </svg></div>
+            <div class="page page--notes">
+                <header class="page__header">
+                    <h1 class="page__title">Notes</h1>
+                </header>
+                <div class="page__content">
+                    <ol reversed class="notelist js-infinitescroll-container">
+                        <li class="notelist__item js-infinitescroll-item">
+                            <div class="note h-entry">
+                                <div class="note__main">
+                                    <div class="note__meta">
+                                        <p class="note__author h-card p-author" rel="author"><span
+                                                class="note__author__link"><img class="note__author__photo u-photo"
+                                                    src="assets/images/avatar2.jpg" alt=""> <strong
+                                                    class="note__author__name p-name">@mxbck</strong></span></p><span
+                                            class="note__meta__divider" aria-hidden="true">&sdot;</span> <time
+                                            class="note__date dt-published" datetime="2023-01-04T11:19:16.530">04 Jan
+                                            2023</time>
+                                        <div class="note__tags"><span class="note__tag">link</span></div>
+                                    </div>
+                                    <div class="note__content">
+                                        <div class="e-content p-name markdown">
+                                            <h2 class="note__title">Horizontal Scrolling in a Centered Max-Width
+                                                Container | Ryan Mulligan</h2>
+                                            <p>Ryan shows how to build a CSS-Only horizontal slider that aligns with a
+                                                centered container. Good bookmark!</p>
+                                            <p><a
+                                                    href="https://ryanmulligan.dev/blog/x-scrolling-centered-max-width-container/">https://ryanmulligan.dev/blog/x-scrolling-centered-max-width-container/</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="note__footer">
+                                    <ul class="note__stats">
+                                        <li class="note__stats__item note__stats__item--mentions" title="0 mentions">
+                                            <svg class="icon icon--message" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-message"></use>
+                                            </svg>0</li>
+                                        <li class="note__stats__item note__stats__item--reposts" title="0 reposts"><svg
+                                                class="icon icon--repost" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-repost"></use>
+                                            </svg>0</li>
+                                        <li class="note__stats__item note__stats__item--likes" title="0 likes"><svg
+                                                class="icon icon--heart" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-heart"></use>
+                                            </svg>0</li>
+                                    </ul>
+                                </div><a
+                                    href="notes/2023-01-04-horizontal-scrolling-in-a-centered-max-width-container-or-ryan-mulligan/index.html"
+                                    class="note__link"><span class="sr-only">View Note</span></a>
+                            </div>
+                        </li>
+                        <li class="notelist__item js-infinitescroll-item">
+                            <div class="note h-entry">
+                                <div class="note__main">
+                                    <div class="note__meta">
+                                        <p class="note__author h-card p-author" rel="author"><span
+                                                class="note__author__link"><img class="note__author__photo u-photo"
+                                                    src="assets/images/avatar2.jpg" alt=""> <strong
+                                                    class="note__author__name p-name">@mxbck</strong></span></p><span
+                                            class="note__meta__divider" aria-hidden="true">&sdot;</span> <time
+                                            class="note__date dt-published" datetime="2021-11-22T18:55:53.810">22 Nov
+                                            2021</time>
+                                        <div class="note__tags"><span class="note__tag">link</span></div>
+                                    </div>
+                                    <div class="note__content">
+                                        <div class="e-content p-name markdown">
+                                            <h2 class="note__title">Your CSS is an interface - Eric Bailey</h2>
+                                            <p>Human-friendly CSS is an interface that […] allows someone using your
+                                                website to easily make modifications. The web is malleable, and that is
+                                                a highly intentional design decision. (via <a
+                                                    href="https://twitter.com/ericwbailey">@ericwbailey</a>)</p>
+                                            <p><a
+                                                    href="https://ericwbailey.design/writing/your-css-is-an-interface/">https://ericwbailey.design/writing/your-css-is-an-interface/</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="note__footer">
+                                    <ul class="note__stats">
+                                        <li class="note__stats__item note__stats__item--mentions" title="2 mentions">
+                                            <svg class="icon icon--message" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-message"></use>
+                                            </svg>2</li>
+                                        <li class="note__stats__item note__stats__item--reposts" title="3 reposts"><svg
+                                                class="icon icon--repost" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-repost"></use>
+                                            </svg>3</li>
+                                        <li class="note__stats__item note__stats__item--likes" title="13 likes"><svg
+                                                class="icon icon--heart" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-heart"></use>
+                                            </svg>13</li>
+                                    </ul>
+                                </div><a href="notes/2021-11-22-your-css-is-an-interface-eric-bailey/index.html"
+                                    class="note__link"><span class="sr-only">View Note</span></a>
+                            </div>
+                        </li>
+                        <li class="notelist__item js-infinitescroll-item">
+                            <div class="note h-entry">
+                                <div class="note__main">
+                                    <div class="note__meta">
+                                        <p class="note__author h-card p-author" rel="author"><span
+                                                class="note__author__link"><img class="note__author__photo u-photo"
+                                                    src="assets/images/avatar2.jpg" alt=""> <strong
+                                                    class="note__author__name p-name">@mxbck</strong></span></p><span
+                                            class="note__meta__divider" aria-hidden="true">&sdot;</span> <time
+                                            class="note__date dt-published" datetime="2021-10-15T19:12:02.082">15 Oct
+                                            2021</time>
+                                        <div class="note__tags"><span class="note__tag">link</span></div>
+                                    </div>
+                                    <div class="note__content">
+                                        <div class="e-content p-name markdown">
+                                            <h2 class="note__title">The Single-Page-App Morality Play - Baldur Bjarnason
+                                            </h2>
+                                            <p>‘The biggest hindrance to the web’s progress isn’t non-expert developers,
+                                                tooling, libraries, Single-Page-Apps, or Multi-Page-Apps. It’s bad
+                                                management.’ (via <a
+                                                    href="https://twitter.com/fakebaldur">@fakebaldur</a>)</p>
+                                            <p><a
+                                                    href="https://www.baldurbjarnason.com/2021/single-page-app-morality-play/">https://www.baldurbjarnason.com/2021/single-page-app-morality-play/</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="note__footer">
+                                    <ul class="note__stats">
+                                        <li class="note__stats__item note__stats__item--mentions" title="1 mentions">
+                                            <svg class="icon icon--message" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-message"></use>
+                                            </svg>1</li>
+                                        <li class="note__stats__item note__stats__item--reposts" title="1 reposts"><svg
+                                                class="icon icon--repost" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-repost"></use>
+                                            </svg>1</li>
+                                        <li class="note__stats__item note__stats__item--likes" title="8 likes"><svg
+                                                class="icon icon--heart" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-heart"></use>
+                                            </svg>8</li>
+                                    </ul><span class="note__syndication" title="syndicated to Twitter"><svg
+                                            class="icon icon--twitter" role="img" aria-hidden="true" width="24"
+                                            height="24">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter">
+                                            </use>
+                                        </svg></span>
+                                </div><a
+                                    href="notes/2021-10-15-the-singlepageapp-morality-play-baldur-bjarnason/index.html"
+                                    class="note__link"><span class="sr-only">View Note</span></a>
+                            </div>
+                        </li>
+                        <li class="notelist__item js-infinitescroll-item">
+                            <div class="note h-entry">
+                                <div class="note__main">
+                                    <div class="note__meta">
+                                        <p class="note__author h-card p-author" rel="author"><span
+                                                class="note__author__link"><img class="note__author__photo u-photo"
+                                                    src="assets/images/avatar2.jpg" alt=""> <strong
+                                                    class="note__author__name p-name">@mxbck</strong></span></p><span
+                                            class="note__meta__divider" aria-hidden="true">&sdot;</span> <time
+                                            class="note__date dt-published" datetime="2021-09-03T14:56:30.568">03 Sep
+                                            2021</time>
+                                        <div class="note__tags"><span class="note__tag">link</span></div>
+                                    </div>
+                                    <div class="note__content">
+                                        <div class="e-content p-name markdown">
+                                            <h2 class="note__title">Why are hyperlinks blue?</h2>
+                                            <p>What happened in 1993 to suddenly make hyperlinks blue? No one knows, but
+                                                I have some theories.</p>
+                                            <p><a
+                                                    href="https://blog.mozilla.org/en/internet-culture/deep-dives/why-are-hyperlinks-blue/">https://blog.mozilla.org/en/internet-culture/deep-dives/why-are-hyperlinks-blue/</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="note__footer">
+                                    <ul class="note__stats">
+                                        <li class="note__stats__item note__stats__item--mentions" title="0 mentions">
+                                            <svg class="icon icon--message" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-message"></use>
+                                            </svg>0</li>
+                                        <li class="note__stats__item note__stats__item--reposts" title="0 reposts"><svg
+                                                class="icon icon--repost" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-repost"></use>
+                                            </svg>0</li>
+                                        <li class="note__stats__item note__stats__item--likes" title="0 likes"><svg
+                                                class="icon icon--heart" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-heart"></use>
+                                            </svg>0</li>
+                                    </ul>
+                                </div><a href="notes/2021-09-03-why-are-hyperlinks-blue/index.html"
+                                    class="note__link"><span class="sr-only">View Note</span></a>
+                            </div>
+                        </li>
+                        <li class="notelist__item js-infinitescroll-item">
+                            <div class="note h-entry">
+                                <div class="note__main">
+                                    <div class="note__meta">
+                                        <p class="note__author h-card p-author" rel="author"><span
+                                                class="note__author__link"><img class="note__author__photo u-photo"
+                                                    src="assets/images/avatar2.jpg" alt=""> <strong
+                                                    class="note__author__name p-name">@mxbck</strong></span></p><span
+                                            class="note__meta__divider" aria-hidden="true">&sdot;</span> <time
+                                            class="note__date dt-published" datetime="2021-09-03T14:52:03.774">03 Sep
+                                            2021</time>
+                                        <div class="note__tags"><span class="note__tag">link</span></div>
+                                    </div>
+                                    <div class="note__content">
+                                        <div class="e-content p-name markdown">
+                                            <h2 class="note__title">Reducing Carbon Emissions On The Web - Smashing
+                                                Magazine</h2>
+                                            <p>‘The mean average emissions for websites with a PageSpeed score of 100 is
+                                                about 1 gram of carbon, which rises to a projected almost 6 grams for
+                                                websites with a score of 0.’ (via <a
+                                                    href="https://twitter.com/smashingmag">@smashingmag</a>)</p>
+                                            <p><a
+                                                    href="https://www.smashingmagazine.com/2021/09/reducing-carbon-emissions-on-web/">https://www.smashingmagazine.com/2021/09/reducing-carbon-emissions-on-web/</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="note__footer">
+                                    <ul class="note__stats">
+                                        <li class="note__stats__item note__stats__item--mentions" title="1 mentions">
+                                            <svg class="icon icon--message" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-message"></use>
+                                            </svg>1</li>
+                                        <li class="note__stats__item note__stats__item--reposts" title="3 reposts"><svg
+                                                class="icon icon--repost" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-repost"></use>
+                                            </svg>3</li>
+                                        <li class="note__stats__item note__stats__item--likes" title="14 likes"><svg
+                                                class="icon icon--heart" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-heart"></use>
+                                            </svg>14</li>
+                                    </ul><span class="note__syndication" title="syndicated to Twitter"><svg
+                                            class="icon icon--twitter" role="img" aria-hidden="true" width="24"
+                                            height="24">
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter">
+                                            </use>
+                                        </svg></span>
+                                </div><a
+                                    href="notes/2021-09-03-reducing-carbon-emissions-on-the-web-smashing-magazine/index.html"
+                                    class="note__link"><span class="sr-only">View Note</span></a>
+                            </div>
+                        </li>
+                        <li class="notelist__item js-infinitescroll-item">
+                            <div class="note h-entry">
+                                <div class="note__main">
+                                    <div class="note__meta">
+                                        <p class="note__author h-card p-author" rel="author"><span
+                                                class="note__author__link"><img class="note__author__photo u-photo"
+                                                    src="assets/images/avatar2.jpg" alt=""> <strong
+                                                    class="note__author__name p-name">@mxbck</strong></span></p><span
+                                            class="note__meta__divider" aria-hidden="true">&sdot;</span> <time
+                                            class="note__date dt-published" datetime="2021-07-08T08:04:32.305">08 Jul
+                                            2021</time>
+                                        <div class="note__tags"><span class="note__tag">link</span></div>
+                                    </div>
+                                    <div class="note__content">
+                                        <div class="e-content p-name markdown">
+                                            <h2 class="note__title">Oh Hello Ana - Blog</h2>
+                                            <p>lovely redesign of Ana’s personal website. plus: guestbooks are back!
+                                                (via <a href="https://twitter.com/ohhelloana">@ohhelloana</a>)</p>
+                                            <p><a href="https://ohhelloana.blog/">https://ohhelloana.blog/</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="note__footer">
+                                    <ul class="note__stats">
+                                        <li class="note__stats__item note__stats__item--mentions" title="0 mentions">
+                                            <svg class="icon icon--message" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-message"></use>
+                                            </svg>0</li>
+                                        <li class="note__stats__item note__stats__item--reposts" title="0 reposts"><svg
+                                                class="icon icon--repost" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-repost"></use>
+                                            </svg>0</li>
+                                        <li class="note__stats__item note__stats__item--likes" title="0 likes"><svg
+                                                class="icon icon--heart" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-heart"></use>
+                                            </svg>0</li>
+                                    </ul>
+                                </div><a href="notes/2021-07-08-oh-hello-ana-blog/index.html" class="note__link"><span
+                                        class="sr-only">View Note</span></a>
+                            </div>
+                        </li>
+                        <li class="notelist__item js-infinitescroll-item">
+                            <div class="note h-entry">
+                                <div class="note__main">
+                                    <div class="note__meta">
+                                        <p class="note__author h-card p-author" rel="author"><span
+                                                class="note__author__link"><img class="note__author__photo u-photo"
+                                                    src="assets/images/avatar2.jpg" alt=""> <strong
+                                                    class="note__author__name p-name">@mxbck</strong></span></p><span
+                                            class="note__meta__divider" aria-hidden="true">&sdot;</span> <time
+                                            class="note__date dt-published" datetime="2021-07-07T07:04:58.548">07 Jul
+                                            2021</time>
+                                        <div class="note__tags"><span class="note__tag">link</span></div>
+                                    </div>
+                                    <div class="note__content">
+                                        <div class="e-content p-name markdown">
+                                            <h2 class="note__title">HTML Boilerplate</h2>
+                                            <p>Manuel shares his current setup for new HTML documents, including all the
+                                                best practices for 2021.</p>
+                                            <p><a
+                                                    href="https://www.matuzo.at/blog/html-boilerplate/">https://www.matuzo.at/blog/html-boilerplate/</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="note__footer">
+                                    <ul class="note__stats">
+                                        <li class="note__stats__item note__stats__item--mentions" title="0 mentions">
+                                            <svg class="icon icon--message" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-message"></use>
+                                            </svg>0</li>
+                                        <li class="note__stats__item note__stats__item--reposts" title="0 reposts"><svg
+                                                class="icon icon--repost" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-repost"></use>
+                                            </svg>0</li>
+                                        <li class="note__stats__item note__stats__item--likes" title="0 likes"><svg
+                                                class="icon icon--heart" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-heart"></use>
+                                            </svg>0</li>
+                                    </ul>
+                                </div><a href="notes/2021-07-07-html-boilerplate/index.html" class="note__link"><span
+                                        class="sr-only">View Note</span></a>
+                            </div>
+                        </li>
+                        <li class="notelist__item js-infinitescroll-item">
+                            <div class="note h-entry">
+                                <div class="note__main">
+                                    <div class="note__meta">
+                                        <p class="note__author h-card p-author" rel="author"><span
+                                                class="note__author__link"><img class="note__author__photo u-photo"
+                                                    src="assets/images/avatar2.jpg" alt=""> <strong
+                                                    class="note__author__name p-name">@mxbck</strong></span></p><span
+                                            class="note__meta__divider" aria-hidden="true">&sdot;</span> <time
+                                            class="note__date dt-published" datetime="2021-07-06T18:03:20.869">06 Jul
+                                            2021</time>
+                                        <div class="note__tags"><span class="note__tag">link</span></div>
+                                    </div>
+                                    <div class="note__content">
+                                        <div class="e-content p-name markdown">
+                                            <h2 class="note__title">Don&#39;t Rush to Simplicity</h2>
+                                            <p>To me simplicity is made more beautiful when understood through a long
+                                                personal struggle with complexity. When I can dance with it, having
+                                                turned a mighty nemesis into an old friend, and teach others to do the
+                                                same.</p>
+                                            <p><a
+                                                    href="https://www.swyx.io/simplicity-rush/">https://www.swyx.io/simplicity-rush/</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="note__footer">
+                                    <ul class="note__stats">
+                                        <li class="note__stats__item note__stats__item--mentions" title="0 mentions">
+                                            <svg class="icon icon--message" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-message"></use>
+                                            </svg>0</li>
+                                        <li class="note__stats__item note__stats__item--reposts" title="0 reposts"><svg
+                                                class="icon icon--repost" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-repost"></use>
+                                            </svg>0</li>
+                                        <li class="note__stats__item note__stats__item--likes" title="0 likes"><svg
+                                                class="icon icon--heart" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-heart"></use>
+                                            </svg>0</li>
+                                    </ul>
+                                </div><a href="notes/2021-07-06-dont-rush-to-simplicity/index.html"
+                                    class="note__link"><span class="sr-only">View Note</span></a>
+                            </div>
+                        </li>
+                        <li class="notelist__item js-infinitescroll-item">
+                            <div class="note h-entry">
+                                <div class="note__main">
+                                    <div class="note__meta">
+                                        <p class="note__author h-card p-author" rel="author"><span
+                                                class="note__author__link"><img class="note__author__photo u-photo"
+                                                    src="assets/images/avatar2.jpg" alt=""> <strong
+                                                    class="note__author__name p-name">@mxbck</strong></span></p><span
+                                            class="note__meta__divider" aria-hidden="true">&sdot;</span> <time
+                                            class="note__date dt-published" datetime="2021-04-07T10:03:58.049">07 Apr
+                                            2021</time>
+                                        <div class="note__tags"><span class="note__tag">link</span></div>
+                                    </div>
+                                    <div class="note__content">
+                                        <div class="e-content p-name markdown">
+                                            <h2 class="note__title">Which type of novelty-seeking web developer are you?
+                                                Baldur Bjarnason</h2>
+                                            <p>‘There is no history in web development and everybody walks on the
+                                                shoulders of giants thinking-or pretending-that they’re just following a
+                                                dirt path conveniently laid out by nature.’</p>
+                                            <p><a
+                                                    href="https://www.baldurbjarnason.com/2021/which-kind-of-web-developer-are-you/">https://www.baldurbjarnason.com/2021/which-kind-of-web-developer-are-you/</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="note__footer">
+                                    <ul class="note__stats">
+                                        <li class="note__stats__item note__stats__item--mentions" title="0 mentions">
+                                            <svg class="icon icon--message" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-message"></use>
+                                            </svg>0</li>
+                                        <li class="note__stats__item note__stats__item--reposts" title="1 reposts"><svg
+                                                class="icon icon--repost" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-repost"></use>
+                                            </svg>1</li>
+                                        <li class="note__stats__item note__stats__item--likes" title="4 likes"><svg
+                                                class="icon icon--heart" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-heart"></use>
+                                            </svg>4</li>
+                                    </ul>
+                                </div><a
+                                    href="notes/2021-04-07-which-type-of-noveltyseeking-web-developer-are-you-baldur-bjarnason/index.html"
+                                    class="note__link"><span class="sr-only">View Note</span></a>
+                            </div>
+                        </li>
+                        <li class="notelist__item js-infinitescroll-item">
+                            <div class="note h-entry">
+                                <div class="note__main">
+                                    <div class="note__meta">
+                                        <p class="note__author h-card p-author" rel="author"><span
+                                                class="note__author__link"><img class="note__author__photo u-photo"
+                                                    src="assets/images/avatar2.jpg" alt=""> <strong
+                                                    class="note__author__name p-name">@mxbck</strong></span></p><span
+                                            class="note__meta__divider" aria-hidden="true">&sdot;</span> <time
+                                            class="note__date dt-published" datetime="2020-11-07T18:11:42.302">07 Nov
+                                            2020</time>
+                                    </div>
+                                    <div class="note__content">
+                                        <div class="e-content p-name markdown">
+                                            <p>I haven’t seen that much joy and relief on Twitter in a long time. A nice
+                                                change from all the doomscrolling!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="note__footer">
+                                    <ul class="note__stats">
+                                        <li class="note__stats__item note__stats__item--mentions" title="0 mentions">
+                                            <svg class="icon icon--message" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-message"></use>
+                                            </svg>0</li>
+                                        <li class="note__stats__item note__stats__item--reposts" title="0 reposts"><svg
+                                                class="icon icon--repost" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-repost"></use>
+                                            </svg>0</li>
+                                        <li class="note__stats__item note__stats__item--likes" title="14 likes"><svg
+                                                class="icon icon--heart" role="img" aria-hidden="true" width="24"
+                                                height="24">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="#icon-heart"></use>
+                                            </svg>14</li>
+                                    </ul>
+                                </div><a href="notes/2020-11-07/index.html" class="note__link"><span
+                                        class="sr-only">View Note</span></a>
+                            </div>
+                        </li>
+                    </ol>
+                    <nav class="js-infinitescroll-pagination"><a href="notes/1/index.html"
+                            class="js-infinitescroll-next">next page</a></nav>
+                </div>
+            </div>
+        </main>
+        <footer class="footer h-card" role="contentinfo">
+            <div class="footer__inner container">
+                <p class="footer__item"><strong>&copy; 2012&ndash;2023</strong><br><a class="p-name u-url" rel="me"
+                        href="https://mxb.dev">Max Böck</a></p>
+                <p class="footer__item"><strong>Subscribe</strong><br><a href="mailinglist.html">Mailing List</a></p>
+                <p class="footer__item"><strong>Social</strong><br><a href="https://front-end.social/@mxbck"
+                        title="Mastodon" rel="me">Mastodon</a> / <a href="https://github.com/maxboeck" title="Github"
+                        rel="me">Github</a></p>
+                <p class="footer__item"><strong>Legal</strong><br><a href="privacy/index.html">Privacy Policy</a></p>
+                <p class="footer__item"><strong>Links</strong><br><a href="blogroll/index.html">Blogroll</a></p>
+                <p class="footer__item footer__item--right u-desktop-only"><a href="https://speedlify.mxb.dev/mxb.dev/"
+                        class="footer__speedlify"><speedlify-score speedlify-url="https://speedlify.mxb.dev"
+                            hash="7dda0135" score weight></speedlify-score></a></p>
+                <p class="footer__item footer__item--right"><a
+                        href="https://github.com/maxboeck/mxb/tree/master/./src/pages/notes.njk" class="footer__icon"
+                        title="Edit this page on Github"><span class="sr-only">Edit this page on Github</span> <svg
+                            class="icon icon--github" role="img" aria-hidden="true" width="24" height="24">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xlink:href="/assets/icons/icons.sprite.svg#icon-github"></use>
+                        </svg> </a><a href="feed.xml" class="footer__icon" title="RSS Feed"><span class="sr-only">RSS
+                            Feed</span> <svg class="icon icon--feed" role="img" aria-hidden="true" width="24"
+                            height="24">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xlink:href="/assets/icons/icons.sprite.svg#icon-feed"></use>
+                        </svg></a></p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/scripts/main.js" defer="defer"></script>
+</body>
+
+</html>

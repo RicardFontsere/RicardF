@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Max Böck | Notes</title>
+    <subtitle>Max Böck is a professional front-end developer based in Vienna, Austria.</subtitle>
+    <link href="https://mxb.dev/notes/feed.xml" rel="self" type="application/atom+xml" />
+    <link href="https://mxb.dev/notes" rel="alternate" type="text/html"/>
+    <author>
+        <name>Max Böck</name>
+    </author>
+    
+    <updated>2023-01-04T11:19:16Z</updated>
+    
+    <id>https://mxb.dev/</id>
+        <entry>
+            <title>Horizontal Scrolling in a Centered Max-Width Container | Ryan Mulligan</title>
+            <link href="https://mxb.dev/notes/2023-01-04-horizontal-scrolling-in-a-centered-max-width-container-or-ryan-mulligan/"/>
+            <updated>2023-01-04T11:19:16Z</updated>
+            <id>https://mxb.dev/notes/2023-01-04-horizontal-scrolling-in-a-centered-max-width-container-or-ryan-mulligan/</id>
+            <content type="html"><![CDATA[
+                <p>Ryan shows how to build a CSS-Only horizontal slider that aligns with a centered container. Good bookmark!</p>
+<p><a href="https://ryanmulligan.dev/blog/x-scrolling-centered-max-width-container/">https://ryanmulligan.dev/blog/x-scrolling-centered-max-width-container/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Your CSS is an interface - Eric Bailey</title>
+            <link href="https://mxb.dev/notes/2021-11-22-your-css-is-an-interface-eric-bailey/"/>
+            <updated>2021-11-22T18:55:53Z</updated>
+            <id>https://mxb.dev/notes/2021-11-22-your-css-is-an-interface-eric-bailey/</id>
+            <content type="html"><![CDATA[
+                <p>Human-friendly CSS is an interface that […] allows someone using your website to easily make modifications. The web is malleable, and that is a highly intentional design decision. (via <a href="https://twitter.com/ericwbailey">@ericwbailey</a>)</p>
+<p><a href="https://ericwbailey.design/writing/your-css-is-an-interface/">https://ericwbailey.design/writing/your-css-is-an-interface/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>The Single-Page-App Morality Play - Baldur Bjarnason</title>
+            <link href="https://mxb.dev/notes/2021-10-15-the-singlepageapp-morality-play-baldur-bjarnason/"/>
+            <updated>2021-10-15T19:12:02Z</updated>
+            <id>https://mxb.dev/notes/2021-10-15-the-singlepageapp-morality-play-baldur-bjarnason/</id>
+            <content type="html"><![CDATA[
+                <p>‘The biggest hindrance to the web’s progress isn’t non-expert developers, tooling, libraries, Single-Page-Apps, or Multi-Page-Apps. It’s bad management.’ (via <a href="https://twitter.com/fakebaldur">@fakebaldur</a>)</p>
+<p><a href="https://www.baldurbjarnason.com/2021/single-page-app-morality-play/">https://www.baldurbjarnason.com/2021/single-page-app-morality-play/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Why are hyperlinks blue?</title>
+            <link href="https://mxb.dev/notes/2021-09-03-why-are-hyperlinks-blue/"/>
+            <updated>2021-09-03T14:56:30Z</updated>
+            <id>https://mxb.dev/notes/2021-09-03-why-are-hyperlinks-blue/</id>
+            <content type="html"><![CDATA[
+                <p>What happened in 1993 to suddenly make hyperlinks blue? No one knows, but I have some theories.</p>
+<p><a href="https://blog.mozilla.org/en/internet-culture/deep-dives/why-are-hyperlinks-blue/">https://blog.mozilla.org/en/internet-culture/deep-dives/why-are-hyperlinks-blue/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Reducing Carbon Emissions On The Web - Smashing Magazine</title>
+            <link href="https://mxb.dev/notes/2021-09-03-reducing-carbon-emissions-on-the-web-smashing-magazine/"/>
+            <updated>2021-09-03T14:52:03Z</updated>
+            <id>https://mxb.dev/notes/2021-09-03-reducing-carbon-emissions-on-the-web-smashing-magazine/</id>
+            <content type="html"><![CDATA[
+                <p>‘The mean average emissions for websites with a PageSpeed score of 100 is about 1 gram of carbon, which rises to a projected almost 6 grams for websites with a score of 0.’ (via <a href="https://twitter.com/smashingmag">@smashingmag</a>)</p>
+<p><a href="https://www.smashingmagazine.com/2021/09/reducing-carbon-emissions-on-web/">https://www.smashingmagazine.com/2021/09/reducing-carbon-emissions-on-web/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Oh Hello Ana - Blog</title>
+            <link href="https://mxb.dev/notes/2021-07-08-oh-hello-ana-blog/"/>
+            <updated>2021-07-08T08:04:32Z</updated>
+            <id>https://mxb.dev/notes/2021-07-08-oh-hello-ana-blog/</id>
+            <content type="html"><![CDATA[
+                <p>lovely redesign of Ana’s personal website. plus: guestbooks are back! (via <a href="https://twitter.com/ohhelloana">@ohhelloana</a>)</p>
+<p><a href="https://ohhelloana.blog/">https://ohhelloana.blog/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>HTML Boilerplate</title>
+            <link href="https://mxb.dev/notes/2021-07-07-html-boilerplate/"/>
+            <updated>2021-07-07T07:04:58Z</updated>
+            <id>https://mxb.dev/notes/2021-07-07-html-boilerplate/</id>
+            <content type="html"><![CDATA[
+                <p>Manuel shares his current setup for new HTML documents, including all the best practices for 2021.</p>
+<p><a href="https://www.matuzo.at/blog/html-boilerplate/">https://www.matuzo.at/blog/html-boilerplate/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Don&#39;t Rush to Simplicity</title>
+            <link href="https://mxb.dev/notes/2021-07-06-dont-rush-to-simplicity/"/>
+            <updated>2021-07-06T18:03:20Z</updated>
+            <id>https://mxb.dev/notes/2021-07-06-dont-rush-to-simplicity/</id>
+            <content type="html"><![CDATA[
+                <p>To me simplicity is made more beautiful when understood through a long personal struggle with complexity. When I can dance with it, having turned a mighty nemesis into an old friend, and teach others to do the same.</p>
+<p><a href="https://www.swyx.io/simplicity-rush/">https://www.swyx.io/simplicity-rush/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Which type of novelty-seeking web developer are you? Baldur Bjarnason</title>
+            <link href="https://mxb.dev/notes/2021-04-07-which-type-of-noveltyseeking-web-developer-are-you-baldur-bjarnason/"/>
+            <updated>2021-04-07T10:03:58Z</updated>
+            <id>https://mxb.dev/notes/2021-04-07-which-type-of-noveltyseeking-web-developer-are-you-baldur-bjarnason/</id>
+            <content type="html"><![CDATA[
+                <p>‘There is no history in web development and everybody walks on the shoulders of giants thinking-or pretending-that they’re just following a dirt path conveniently laid out by nature.’</p>
+<p><a href="https://www.baldurbjarnason.com/2021/which-kind-of-web-developer-are-you/">https://www.baldurbjarnason.com/2021/which-kind-of-web-developer-are-you/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>07 Nov 2020</title>
+            <link href="https://mxb.dev/notes/2020-11-07/"/>
+            <updated>2020-11-07T18:11:42Z</updated>
+            <id>https://mxb.dev/notes/2020-11-07/</id>
+            <content type="html"><![CDATA[
+                <p>I haven’t seen that much joy and relief on Twitter in a long time. A nice change from all the doomscrolling!</p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Looking at coronavirus.data.gov.uk - Matthew Somerville</title>
+            <link href="https://mxb.dev/notes/2020-04-27-looking-at-coronavirusdatagovuk-matthew-somerville/"/>
+            <updated>2020-04-27T13:27:29Z</updated>
+            <id>https://mxb.dev/notes/2020-04-27-looking-at-coronavirusdatagovuk-matthew-somerville/</id>
+            <content type="html"><![CDATA[
+                <p>Yesterday I was looking for data on less-then-ideal emergency information sites. Then @dracos does this amazing case study with more detail than I could have hoped for! 😍</p>
+<p><a href="http://dracos.co.uk/wrote/coronavirus-dashboard/">http://dracos.co.uk/wrote/coronavirus-dashboard/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Gardened. - Ethan Marcotte</title>
+            <link href="https://mxb.dev/notes/2020-04-25-gardened-ethan-marcotte/"/>
+            <updated>2020-04-25T17:28:23Z</updated>
+            <id>https://mxb.dev/notes/2020-04-25-gardened-ethan-marcotte/</id>
+            <content type="html"><![CDATA[
+                <p>‘…right now, producing quality work relies on teams electing to adopt best practices: In other words, they have to give a damn. But giving a damn doesn’t scale.’ (via <a href="https://twitter.com/beep">@beep</a>)</p>
+<p><a href="https://ethanmarcotte.com/wrote/gardened/">https://ethanmarcotte.com/wrote/gardened/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Hydration</title>
+            <link href="https://mxb.dev/notes/2020-02-08-hydration/"/>
+            <updated>2020-02-08T14:13:42Z</updated>
+            <id>https://mxb.dev/notes/2020-02-08-hydration/</id>
+            <content type="html"><![CDATA[
+                <p>‘So you’ve got a facade of an interface that you can’t actually interact with until a deluge of JavaScript has been loaded, parsed and executed.’ (via <a href="https://twitter.com/adactio">@adactio</a>)</p>
+<p><a href="https://adactio.com/journal/16404">https://adactio.com/journal/16404</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Letting Go of the Old Internet</title>
+            <link href="https://mxb.dev/notes/2019-12-26-letting-go-of-the-old-internet/"/>
+            <updated>2019-12-26T17:47:06Z</updated>
+            <id>https://mxb.dev/notes/2019-12-26-letting-go-of-the-old-internet/</id>
+            <content type="html"><![CDATA[
+                <p>we miss the old internet - but that time has gone and passed. The future web can only hold as much wonder, discovery and community as it did back then, when we let go.</p>
+<p><a href="https://dezz.ie/web-history/still-making-for-ourselves/">https://dezz.ie/web-history/still-making-for-ourselves/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Getting to work. - Ethan Marcotte</title>
+            <link href="https://mxb.dev/notes/2019-12-20-getting-to-work-ethan-marcotte/"/>
+            <updated>2019-12-20T13:23:53Z</updated>
+            <id>https://mxb.dev/notes/2019-12-20-getting-to-work-ethan-marcotte/</id>
+            <content type="html"><![CDATA[
+                <p>(…) No single one of us can fix our industry: it’s going to take all of us, and we need to start now. (via <a href="https://twitter.com/beep">@beep</a>)</p>
+<p><a href="https://ethanmarcotte.com/wrote/getting-to-work/">https://ethanmarcotte.com/wrote/getting-to-work/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Introducing Sass Modules</title>
+            <link href="https://mxb.dev/notes/2019-12-14-introducing-sass-modules/"/>
+            <updated>2019-12-14T12:50:14Z</updated>
+            <id>https://mxb.dev/notes/2019-12-14-introducing-sass-modules/</id>
+            <content type="html"><![CDATA[
+                <p>Sass is getting better namespacing for imports. This will be a good fit for component-based architectures! (via <a href="https://twitter.com/originell">@originell</a>)</p>
+<p><a href="https://css-tricks.com/introducing-sass-modules/">https://css-tricks.com/introducing-sass-modules/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Post short notes to a Jekyll blog using an iOS Shortcut</title>
+            <link href="https://mxb.dev/notes/2019-12-10-post-short-notes-to-a-jekyll-blog-using-an-ios-shortcut/"/>
+            <updated>2019-12-10T09:32:55Z</updated>
+            <id>https://mxb.dev/notes/2019-12-10-post-short-notes-to-a-jekyll-blog-using-an-ios-shortcut/</id>
+            <content type="html"><![CDATA[
+                <p>Another implementation for easy #indieweb note sharing (via <a href="https://twitter.com/rdsaunders">@rdsaunders</a>)</p>
+<p><a href="https://www.rdsaunders.co.uk/indieweb/2019/12/03/post-short-notes-to-a-jekyll-blog-using-ios-shortcut">https://www.rdsaunders.co.uk/indieweb/2019/12/03/post-short-notes-to-a-jekyll-blog-using-ios-shortcut</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Webclerks Conference</title>
+            <link href="https://mxb.dev/notes/2019-11-22-webclerks-conference/"/>
+            <updated>2019-11-22T13:36:31Z</updated>
+            <id>https://mxb.dev/notes/2019-11-22-webclerks-conference/</id>
+            <content type="html"><![CDATA[
+                <p>cool conf y’all!</p>
+<p><a href="https://webclerks.at/">https://webclerks.at/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Mental models</title>
+            <link href="https://mxb.dev/notes/2019-11-21-mental-models/"/>
+            <updated>2019-11-21T14:37:25Z</updated>
+            <id>https://mxb.dev/notes/2019-11-21-mental-models/</id>
+            <content type="html"><![CDATA[
+                <p>…applying mental models from server programming or computer science is not a good idea when it comes to frontend. (via <a href="https://twitter.com/adactio">@adactio</a>)</p>
+<p><a href="https://adactio.com/journal/16138">https://adactio.com/journal/16138</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>The web is not dying | Go Make Things</title>
+            <link href="https://mxb.dev/notes/2019-11-11-the-web-is-not-dying-or-go-make-things/"/>
+            <updated>2019-11-11T11:10:34Z</updated>
+            <id>https://mxb.dev/notes/2019-11-11-the-web-is-not-dying-or-go-make-things/</id>
+            <content type="html"><![CDATA[
+                <p>‘I don’t know how you can look at all of these amazing tools and technology and feel like the web itself is doing anything other than flourishing, though.’ (via <a href="https://twitter.com/ChrisFerdinandi">@ChrisFerdinandi</a>)</p>
+<p><a href="https://gomakethings.com/the-web-is-not-dying/">https://gomakethings.com/the-web-is-not-dying/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>29 Sep 2019</title>
+            <link href="https://mxb.dev/notes/2019-09-29-1569760206.393/"/>
+            <updated>2019-09-29T12:30:06Z</updated>
+            <id>https://mxb.dev/notes/2019-09-29-1569760206.393/</id>
+            <content type="html"><![CDATA[
+                <p>On my recent trip to belarus, I met Vadim Makeev and had an interesting chat about CSS on the @webstandards_ru podcast. listen here: (via <a href="https://twitter.com/pepelsbey">@pepelsbey</a>)</p>
+<p><a href="https://www.youtube.com/watch?v=qxwe-ixsTuI">https://www.youtube.com/watch?v=qxwe-ixsTuI</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Amphora - Ethan Marcotte</title>
+            <link href="https://mxb.dev/notes/2019-08-12-amphora-ethan-marcotte/"/>
+            <updated>2019-08-12T08:13:40Z</updated>
+            <id>https://mxb.dev/notes/2019-08-12-amphora-ethan-marcotte/</id>
+            <content type="html"><![CDATA[
+                <p>…we’ve reached a point where AMP may “solve” the web’s performance issues by supercharging the web’s accessibility problem. (via <a href="https://twitter.com/beep">@beep</a>)</p>
+<p><a href="https://ethanmarcotte.com/wrote/amphora/">https://ethanmarcotte.com/wrote/amphora/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>Getting to the Heart of Digital Accessibility - A List Apart</title>
+            <link href="https://mxb.dev/notes/2019-08-08-getting-to-the-heart-of-digital-accessibility-a-list-apart/"/>
+            <updated>2019-08-08T10:46:13Z</updated>
+            <id>https://mxb.dev/notes/2019-08-08-getting-to-the-heart-of-digital-accessibility-a-list-apart/</id>
+            <content type="html"><![CDATA[
+                <p><a href="https://alistapart.com/article/getting-to-the-heart-of-digital-accessibility/">https://alistapart.com/article/getting-to-the-heart-of-digital-accessibility/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>04 Aug 2019</title>
+            <link href="https://mxb.dev/notes/2019-08-04/"/>
+            <updated>2019-08-04T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-08-04/</id>
+            <content type="html"><![CDATA[
+                <p>The cat’s out of the bag: we are organizing a <a href="https://webclerks.at/">conference</a> in November in Vienna! I’ve been working with <a href="https://www.matuzo.at/">Tuzo</a> and <a href="https://twitter.com/lctdnl">Daniel</a> these past few weeks to get the website set up and this thing off the ground. I’m very excited about this and although there’s still lots of work ahead of us, the lineup is already amazing.</p>
+<p>Speakers include Rachel Andrew, Jeremy Keith, Heydon Pickering and more awesome people who are yet to be announced. We also have an <a href="https://docs.google.com/forms/d/e/1FAIpQLSdMlydittpPpWLcd0tiDqadmAoaQv2nD8F8w4esqwdyKQt1aw/viewform">open CFP</a> for the last slot - Take a look!</p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>09 Jun 2019</title>
+            <link href="https://mxb.dev/notes/2019-06-09/"/>
+            <updated>2019-06-09T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-06-09/</id>
+            <content type="html"><![CDATA[
+                <ul>
+<li>wrote a new post: <a href="https://mxb.dev/blog/the-css-mindset/">The CSS Mindset</a></li>
+<li>saw a live show by Tool, one of my favourite bands</li>
+<li>got lots of work done with the guys at <a href="https://www.simpleloop.com/">Simpleloop</a></li>
+<li>learned a bit about React hooks and how to use them.</li>
+</ul>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>01 Jun 2019</title>
+            <link href="https://mxb.dev/notes/2019-06-01/"/>
+            <updated>2019-06-01T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-06-01/</id>
+            <content type="html"><![CDATA[
+                <p>I’m giving this <em>“weeknotes”</em> thing a shot after seeing it on some other blogs! (I’m starting with 22 because that’s the current calendar week).</p>
+<ul>
+<li>Started digging into webcomponents with lit-html. So far I like it, feels very straightforward.</li>
+<li>Met <a href="https://www.matuzo.at/">Manuel</a> for drinks and shoptalk. Interesting stuff is happening!</li>
+<li>Saw Ethan’s Talk <a href="https://newadventuresconf.com/2019/coverage/ethan/">“The World-Wide Work”</a> from New Adventures Conf, which really got me thinking about the general direction the web is taking, and our role as developers in it.</li>
+<li>Booked a flight for a spontaneous short trip to <a href="https://www.google.com/maps/place/Tiflis,+Georgien/@41.7392683,42.5970525,7z/data=!4m5!3m4!1s0x40440cd7e64f626b:0x61d084ede2576ea3!8m2!3d41.7151377!4d44.827096">Tbilisi</a>, Georgia.</li>
+</ul>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>15 May 2019</title>
+            <link href="https://mxb.dev/notes/2019-05-15/"/>
+            <updated>2019-05-15T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-05-15/</id>
+            <content type="html"><![CDATA[
+                <p>We use gitlab issues at work, which supports tagging commit messages with an issue number, to make that commit appear in the issue thread. I often forget to tag my messages though, and then remember a second after committing.</p>
+<p>So I wrote a little helper function as a custom git command:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/bin/sh</span><br /><br /><span class="token assign-left variable">OLD_MSG</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">git</span> log <span class="token parameter variable">--format</span><span class="token operator">=</span>%B <span class="token parameter variable">-n1</span><span class="token variable">)</span></span><br /><span class="token function">git</span> commit <span class="token parameter variable">--amend</span> <span class="token parameter variable">-m</span> <span class="token string">"<span class="token variable">$OLD_MSG</span>, #<span class="token variable">$1</span>"</span></code></pre>
+<p>It’s just a simple shell script that fetches the last commit message and appends the issue number. So I can do this:</p>
+<pre class="language-bash"><code class="language-bash">$ <span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">"add css grid support"</span><br /><span class="token comment"># ah fuck, forgot that this is related to an issue!</span><br />$ <span class="token function">git</span> append-issue <span class="token number">27</span><br /><span class="token comment"># commit msg is now: "add css grid support, #27"</span></code></pre>
+<p>To make it work:</p>
+<ul>
+<li>Name the shell script <code>git-append-issue</code> (no extension)</li>
+<li>save it in a folder in your home directory, i.e. <code>~/git-commands</code></li>
+<li>make it executable with <code>chmod 555</code></li>
+<li>add that folder to your <code>$PATH</code></li>
+<li>git now recognizes your custom command!</li>
+</ul>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>22 Apr 2019</title>
+            <link href="https://mxb.dev/notes/2019-04-22/"/>
+            <updated>2019-04-22T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-04-22/</id>
+            <content type="html"><![CDATA[
+                <p>💡Friendly reminder: if you include analytics or other tracking scripts on your site, please respect the “Do Not Track” client setting. You can check for it like this:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">function</span> <span class="token function">allowsTracking</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br />    <span class="token keyword">const</span> dnt <span class="token operator">=</span><br />        window<span class="token punctuation">.</span>doNotTrack <span class="token operator">||</span><br />        navigator<span class="token punctuation">.</span>doNotTrack <span class="token operator">||</span><br />        navigator<span class="token punctuation">.</span>msDoNotTrack<br />    <span class="token keyword">if</span> <span class="token punctuation">(</span>dnt <span class="token operator">===</span> <span class="token number">1</span> <span class="token operator">||</span> dnt <span class="token operator">===</span> <span class="token string">'1'</span> <span class="token operator">||</span> dnt <span class="token operator">===</span> <span class="token string">'yes'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br />        <span class="token keyword">return</span> <span class="token boolean">false</span><br />    <span class="token punctuation">}</span><br />    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token string">'msTrackingProtectionEnabled'</span> <span class="token keyword">in</span> window<span class="token punctuation">.</span>external<span class="token punctuation">)</span> <span class="token punctuation">{</span><br />        <span class="token keyword">return</span> <span class="token operator">!</span>window<span class="token punctuation">.</span>external<span class="token punctuation">.</span><span class="token function">msTrackingProtectionEnabled</span><span class="token punctuation">(</span><span class="token punctuation">)</span><br />    <span class="token punctuation">}</span><br />    <span class="token keyword">return</span> <span class="token boolean">true</span><br /><span class="token punctuation">}</span><br /><br /><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">allowsTracking</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br />  <span class="token comment">// Analytics Tracking Code Here </span><br /><span class="token punctuation">}</span></code></pre>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>30 Mar 2019</title>
+            <link href="https://mxb.dev/notes/2019-03-30/"/>
+            <updated>2019-03-30T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-03-30/</id>
+            <content type="html"><![CDATA[
+                <p>detecting autofill on form inputs is not very straightforward. One solution involves hooking up an empty animation to the <code>:-webkit-autofill</code> pseudo class, then listening for that animation in JS. (works in chrome/safari) code: <a href="https://codepen.io/mxbck/pen/XQrymm">https://codepen.io/mxbck/pen/XQrymm</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>25 Mar 2019</title>
+            <link href="https://mxb.dev/notes/2019-03-25/"/>
+            <updated>2019-03-25T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-03-25/</id>
+            <content type="html"><![CDATA[
+                <p>biggest win for semantic HTML? It’s just waaaay easier to type <code>&lt;button&gt;</code> and be done with it than to try and bolt shit on a div with lots of attributes and JS. With everything you get for free, why would you <em>want</em> to do all that extra work?</p>
+<p>RT <a href="https://twitter.com/AdamRackis/status/1109526799455784960">twitter.com/AdamRackis/status/1109526799455784960</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>04 Mar 2019</title>
+            <link href="https://mxb.dev/notes/2019-03-04/"/>
+            <updated>2019-03-04T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-03-04/</id>
+            <content type="html"><![CDATA[
+                <p>Usually, when writing print CSS, you would want to omit <code>background-color</code> declarations to improve readability (and save ink).</p>
+<p>I had a case at work today though where I actually needed them to print. It was used in some progress indicators that didn’t make any sense without it. But some browsers ignore <code>background-color</code> by default in print, unless the user selects otherwise.</p>
+<p>If you <strong>absolutely have to</strong> override that, there’s <code>-webkit-print-color-adjust: exact</code>.<br />
+It only works in Chrome and Safari though.</p>
+<p><a href="https://developer.mozilla.org/de/docs/Web/CSS/-webkit-print-color-adjust">-webkit-print-color-adjust on MDN</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>02 Mar 2019</title>
+            <link href="https://mxb.dev/notes/2019-03-02/"/>
+            <updated>2019-03-02T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-03-02/</id>
+            <content type="html"><![CDATA[
+                <p>TIL there’s a media query for <code>display-mode</code>, triggered i.e. when a PWA is launched from the homescreen in <code>standalone</code> mode.<br />
+via <a href="https://developers.google.com/web/fundamentals/app-install-banners/#display-mode_media_query">Google Developer Web Fundamentals</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>11 Feb 2019</title>
+            <link href="https://mxb.dev/notes/2019-02-11/"/>
+            <updated>2019-02-11T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-02-11/</id>
+            <content type="html"><![CDATA[
+                <p>While I applaud the new wave of people publishing on their own blogs, I still feel this is too hard to do for non-tech folks. Here’s what I’d love to see:</p>
+<p>A platform that includes</p>
+<ul>
+<li>free hosting</li>
+<li>the ability to buy a custom domain</li>
+<li>a simple CMS for writing posts</li>
+<li>an integrated RSS feed reader to “follow” your friends</li>
+<li>a “content stream” showing recent posts of blogs you subscribed to</li>
+<li>webmention support - see reactions to your post</li>
+<li>the ability to <strong>get it all up and running without ever touching code</strong></li>
+</ul>
+<p>I think Netlify / <a href="https://www.netlifycms.org/docs/start-with-a-template/">NetlifyCMS</a> checks a lot of these boxes, but still requires some tech knowledge, i.e. you need to have a git repo and understand some of the basic concepts (“deploy”, “build”, “static”…)</p>
+<p>Ideally, I’d like a page with a big “start your own blog” button, and a process that’s just as easy as signing up for Facebook.</p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>07 Feb 2019</title>
+            <link href="https://mxb.dev/notes/2019-02-07/"/>
+            <updated>2019-02-07T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-02-07/</id>
+            <content type="html"><![CDATA[
+                <p>Ever wanted to inspect some UI that only appears on specific interactions? Run <code>window.setTimeout(() =&gt; {debugger}, 5000)</code> in the devtools console: page will freeze in 5 seconds.</p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>31 Jan 2019</title>
+            <link href="https://mxb.dev/notes/2019-01-31/"/>
+            <updated>2019-01-31T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-01-31/</id>
+            <content type="html"><![CDATA[
+                <p>The internet used to be a weird funny place, and a lot more people just hacked stuff together. Can we get that back? <a href="https://jarredsumner.com/codeblog/">https://jarredsumner.com/codeblog/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>28 Jan 2019</title>
+            <link href="https://mxb.dev/notes/2019-01-28/"/>
+            <updated>2019-01-28T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-01-28/</id>
+            <content type="html"><![CDATA[
+                <p>Sometimes I wonder if any other profession fights as much as developers. You think bakers frequently get into arguments on how everybody “is doing flour wrong”?</p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>24 Jan 2019</title>
+            <link href="https://mxb.dev/notes/2019-01-24/"/>
+            <updated>2019-01-24T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-01-24/</id>
+            <content type="html"><![CDATA[
+                <p>“Called ‘a map of deadbeat debtors’, this app allows users to find out whether there are any people in debt within 500 meters.” … China is really running with every dystopian idea they can find. <a href="http://www.chinadaily.com.cn/a/201901/16/WS5c3edfb8a3106c65c34e4d75.html">http://www.chinadaily.com.cn/a/201901/16/WS5c3edfb8a3106c65c34e4d75.html</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>23 Jan 2019</title>
+            <link href="https://mxb.dev/notes/2019-01-23/"/>
+            <updated>2019-01-23T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-01-23/</id>
+            <content type="html"><![CDATA[
+                <p>Using CSS to track user data: <a href="https://www.templarbit.com/blog/2018/03/20/tracking-users-with-css/">https://www.templarbit.com/blog/2018/03/20/tracking-users-with-css/</a> - once again proving that any technology can and will be exploited for bad intentions.</p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>14 Jan 2019</title>
+            <link href="https://mxb.dev/notes/2019-01-14/"/>
+            <updated>2019-01-14T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-01-14/</id>
+            <content type="html"><![CDATA[
+                <p>Support for CSS Custom Properties is really good, so I want to start using them more! I’m getting my feet wet by building a dark mode for my blog - looks good! (click the 🌙 in footer to switch)</p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>11 Jan 2019</title>
+            <link href="https://mxb.dev/notes/2019-01-11/"/>
+            <updated>2019-01-11T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-01-11/</id>
+            <content type="html"><![CDATA[
+                <p>Very interesting post about the privacy implications of indieweb techniques, especially backfeeding. TBH I hadn’t thought about that yet. 🤔 <a href="https://sebastiangreger.net/2018/05/indieweb-privacy-challenge-webmentions-backfeeds-gdpr/">https://sebastiangreger.net/2018/05/indieweb-privacy-challenge-webmentions-backfeeds-gdpr/</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>04 Jan 2019</title>
+            <link href="https://mxb.dev/notes/2019-01-04/"/>
+            <updated>2019-01-04T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2019-01-04/</id>
+            <content type="html"><![CDATA[
+                <p>I did some housekeeping over the holidays and ported my website to <a href="https://www.11ty.io/">Eleventy</a>! The previous version was based on Jekyll - which is fine but got a bit slow, and since I don’t know Ruby, the generator was always a bit of a mystery to me. Eleventy runs on node / Javascript, so I have more control over whats going on.</p>
+<p>I have also switched to <a href="https://www.netlify.com/">Netlify</a> for hosting - it’s super developer friendly and makes a lot of difficult tasks just work out of the box. Loving it so far!</p>
+<p>I have some ideas for the <code>notes</code> section, the webmentions and a few other <em>#indieweb</em> features I’d like to explore, but for now I’m pretty happy with how the site turned out.</p>
+<p>As always, the <a href="https://github.com/maxboeck/mxb">source code</a> is public on Github, if anyone is interested in the specifics. 😉</p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>30 Dec 2018</title>
+            <link href="https://mxb.dev/notes/2018-12-30/"/>
+            <updated>2018-12-30T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2018-12-30/</id>
+            <content type="html"><![CDATA[
+                <p>A spin on atomic design: “component based design”, by @weareheavyweight<br />
+<a href="https://medium.com/@wereheavyweight/how-were-using-component-based-design-5f9e3176babb">https://medium.com/@wereheavyweight/how-were-using-component-based-design-5f9e3176babb</a></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>13 Dec 2018</title>
+            <link href="https://mxb.dev/notes/2018-12-13/"/>
+            <updated>2018-12-13T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2018-12-13/</id>
+            <content type="html"><![CDATA[
+                <p>“Woodpecker tongues are <a href="https://www.birdwatchingdaily.com/news/science/woodpeckers-hammer-without-headaches/">over a foot long</a> and wrap around the bird’s brain to protect it from TBI while pecking”. whaaat 😶</p>
+<p><img src="https://cdn.birdwatchingdaily.com/2013/12/Flicker-Tongue-660x403.jpg" alt="A curving complex of cartilage and bone within a woodpecker’s head permits the bird to extend and store its exceptionally long tongue. Illustration by Denise Takahashi." /></p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>04 Dec 2018</title>
+            <link href="https://mxb.dev/notes/2018-12-04/"/>
+            <updated>2018-12-04T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2018-12-04/</id>
+            <content type="html"><![CDATA[
+                <p><a href="https://hacks.mozilla.org/2018/11/the-power-of-web-components/">The Power of Web Components</a> - Mozilla Hacks</p>
+<p>A nice overview of the current state of standardized web components. Keeping an eye on this…</p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>02 Dec 2018</title>
+            <link href="https://mxb.dev/notes/2018-12-02/"/>
+            <updated>2018-12-02T00:00:00Z</updated>
+            <id>https://mxb.dev/notes/2018-12-02/</id>
+            <content type="html"><![CDATA[
+                <p>Here’s my first note! I want to try this as a way of posting small, random chunks of content. <a href="https://indieweb.org/note">#indieweb</a></p>
+
+            ]]></content>
+        </entry></feed>

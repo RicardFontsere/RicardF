@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>Blogroll RSS Feeds</title>
+    </head>
+    <body>
+    
+        
+        <outline type="rss" title="Manuel Matuzović" text="Manuel is a developer, consultant, speaker and friend from Vienna who specializes in HTML, CSS and accessibility." xmlUrl="https://www.matuzo.at/feed.xml" htmlUrl="https://www.matuzo.at" />
+        
+    
+        
+        <outline type="rss" title="Charlie Owen" text="Charlie is a front-end developer and speaker based in Berlin. She is best known for her work with Springer Nature and offending tech-bros on twitter." xmlUrl="https://whalecoiner.net/rss/posts.xml" htmlUrl="https://whalecoiner.net/" />
+        
+    
+        
+        <outline type="rss" title="Matthias Ott" text="Matthias is an UI designer and engineer based in Stuttgart. He teaches prototyping and writes about Front-End, Design and the IndieWeb." xmlUrl=" https://matthiasott.com/articles/rss" htmlUrl="https://matthiasott.com" />
+        
+    
+        
+        <outline type="rss" title="Ethan Marcotte" text="Ethan wrote the book on responsive web design, but he&#39;s also a gifted blogger. His posts cover web culture, technology and life in general." xmlUrl="https://ethanmarcotte.com/wrote/feed.xml" htmlUrl="https://ethanmarcotte.com" />
+        
+    
+        
+        <outline type="rss" title="Tobias Ahlin" text="Tobias is a designer, developer and teacher from Stockholm. He&#39;s worked for Spotify, Github and Minecraft and has a lot of interesting posts about CSS." xmlUrl="https://tobiasahlin.com/feed.xml" htmlUrl="https://tobiasahlin.com" />
+        
+    
+        
+        <outline type="rss" title="Michael Scharnagl" text="Michael is a front-end developer from Germany. His work is focused on accessibility, progressive enhancement and web performance." xmlUrl="https://justmarkup.com/feed/feed.xml" htmlUrl="https://justmarkup.com" />
+        
+    
+        
+    
+        
+        <outline type="rss" title="Heydon Pickering" text="Heydon is a designer and accessibility consultant based in the UK. He wrote &#39;Inclusive Design&#39;, edits for Smashing Magazine and is an excellent speaker on all things a11y." xmlUrl="http://www.heydonworks.com/feed" htmlUrl="http://www.heydonworks.com" />
+        
+    
+        
+        <outline type="rss" title="Oliver Schöndorfer" text="Oliver loves good typography. He runs a design studio in Vienna and is a talented writer and speaker. He has some very interesting posts about web fonts." xmlUrl="https://www.zeichenschatz.net/feed" htmlUrl="https://www.zeichenschatz.net" />
+        
+    
+        
+        <outline type="rss" title="Lisi Linhart" text="Lisi is a creative developer from Salzburg, blogging about CSS, JavaScript and Interface Design. She&#39;s an expert in the field of Web Animation and a lecturer for multimedia technology." xmlUrl="https://lisilinhart.info/rss.xml" htmlUrl="https://lisilinhart.info" />
+        
+    
+        
+        <outline type="rss" title="Marcus Herrmann" text="Marcus is a freelance web developer from Berlin. His blog covers accessibility techniques for modern JavaScript apps, progressive enhancement and the IndieWeb." xmlUrl="https://marcus.io/feed" htmlUrl="https://marcus.io" />
+        
+    
+        
+        <outline type="rss" title="Cathy Dutton" text="Cathy is a designer from Cheshire in the UK. She designs and builds inclusive services focusing on usability, accessibility and information architecture." xmlUrl="https://cathydutton.co.uk/feed.xml" htmlUrl="https://cathydutton.co.uk" />
+        
+    
+        
+        <outline type="rss" title="Jeremy Wagner" text="Jeremy is a web developer, writer and speaker from Minnesota. His blog is an excellent resource on web performance techniques, as well as general best practices for development." xmlUrl="https://jeremy.codes/rss.xml" htmlUrl="https://jeremy.codes" />
+        
+    
+        
+        <outline type="rss" title="Zach Leatherman" text="Zach is a web developer working at Netlify. He&#39;s currently fixated on web fonts and making the static site generator Eleventy. His blog has interesting posts about a lot of different topics." xmlUrl="https://www.zachleat.com/web/feed/" htmlUrl="https://www.zachleat.com" />
+        
+    
+        
+        <outline type="rss" title="Sara Soueidan" text="Sara is a developer who specializes in responsive web design, CSS, progressive enhancement, SVG and accessibility. Topics on her blog range from SVG techniques to general web development." xmlUrl="https://www.sarasoueidan.com/blog/index.xml" htmlUrl="https://www.sarasoueidan.com" />
+        
+    
+        
+        <outline type="rss" title="Bryan L. Robinson" text="Bryan is a Developer based in Memphis and an Advocate for HTML, CSS, JavaScript and Static Sites. His blog features posts on CSS Layout, IndieWeb and the JAM Stack." xmlUrl="https://bryanlrobinson.com/feed.xml" htmlUrl="https://bryanlrobinson.com" />
+        
+    
+        
+        <outline type="rss" title="Andy Bell" text="Andy is a freelance web designer from the UK trying to make everyone’s experience on the web better. His focus is on progressive enhancement, accessibility and design systems. He writes about CSS, web components and other interesting topics." xmlUrl="https://hankchizljaw.com/feed/writing.xml" htmlUrl="https://hankchizljaw.com" />
+        
+    
+        
+        <outline type="rss" title="Monica Dinculescu" text="Monica is an engineer at Google who has previously worked on projects like Chrome and Polymer. Her blog is a very interesting resource for all kinds of stuff, including Machine Learning, Web Components and Emojis." xmlUrl="https://meowni.ca/atom.xml" htmlUrl="https://meowni.ca" />
+        
+    
+        
+        <outline type="rss" title="Una Kravets" text="Una is a developer advocate at Google for their Material Design System. She writes about design and development, including great pieces about CSS, SVG and Service Worker." xmlUrl="https://una.im/feed.xml" htmlUrl="https://una.im" />
+        
+    
+        
+        <outline type="rss" title="Veerle Pieters" text="Veerle is a graphic/web designer from Belgium. Her blog is an invaluable source of insight into her design process, creativity, technology and life." xmlUrl="https://veerle.duoh.com/design-feed.rss" htmlUrl="https://veerle.duoh.com" />
+        
+    
+        
+        <outline type="rss" title="Jonathan Snook" text="Snook is a web designer, developer, writer, speaker, sometimes angel investor, and hobbyist photographer. He writes about many facets of modern front-end development and his blog features interesting posts on a variety of topics." xmlUrl="https://snook.ca/posts/index.rss" htmlUrl="https://snook.ca" />
+        
+    
+        
+        <outline type="rss" title="Michelle Barker" text="Michelle is a very talented developer based in the UK. She runs &#39;CSS In Real Life&#39;, a fantastic blog about -you guessed it- CSS. Bookmark it." xmlUrl="https://css-irl.info/rss.xml" htmlUrl="https://css-irl.info" />
+        
+    
+        
+    
+        
+        <outline type="rss" title="Laura Kalbag" text="Laura is a designer based in Ireland. She wrote the excellent &#39;Accessibility for Everyone&#39; and is the co-founder of Ind.ie, a nonprofit working towards a better, more ethical web. Her blog is very much worth a read." xmlUrl="https://laurakalbag.com/posts/index.xml" htmlUrl="https://laurakalbag.com" />
+        
+    
+        
+        <outline type="rss" title="Jeremy Keith" text="Jeremy is a developer and co-founder of the Brighton-based design studio Clearleft. He&#39;s a terrific speaker and has wirtten several books on web development, including &#39;HTML5 for Web Designers&#39; and &#39;Going Offline&#39;." xmlUrl="https://adactio.com/journal/rss" htmlUrl="https://adactio.com" />
+        
+    
+        
+        <outline type="rss" title="Hidde de Vries" text="Hidde is a front-end developer from the Netherlands. He specializes in CSS, accessibility and performance, and his blog features excellent posts on these topics." xmlUrl="https://hiddedevries.nl/rss/full" htmlUrl="https://hiddedevries.nl/en" />
+        
+    
+        
+        <outline type="rss" title="Remy Sharp" text="Remy is a developer running his own business called Left Logic out of Brighton, UK. His blog mostly concentrates on web, code, a touch of business and some personal pieces. Highly Recommended." xmlUrl="https://remysharp.com/feed.xml" htmlUrl="https://remysharp.com" />
+        
+    
+        
+        <outline type="rss" title="Søren Birkemeyer" text="Søren is a webdeveloper based in Bonn, Germany. His blog is a great resource for CSS, the IndieWeb and tinkering with Eleventy." xmlUrl="https://annualbeta.com/feed.xml" htmlUrl="https://annualbeta.com" />
+        
+    
+        
+        <outline type="rss" title="Lynn Fisher" text="Lynn is an artist, designer, and developer. Her blog regularly blows people away with clever and creative uses of CSS. Lots of interesting posts here." xmlUrl="https://lynnandtonic.com/feed.xml" htmlUrl="https://lynnandtonic.com" />
+        
+    
+        
+        <outline type="rss" title="Ire Aderinokun" text="Ire is a frontend developer and UI designer from Lagos, Nigeria. Her posts cover a broad range of topics in web development and are an excellent way to keep up with new tech." xmlUrl="https://bitsofco.de/rss/" htmlUrl="https://bitsofco.de/" />
+        
+    
+        
+        <outline type="rss" title="swyx" text="Shawn Wang (swyx) is an Infinite Builder, previously working on Developer Experience at Netlify. In his free time he helps people Learn in Public at Egghead.io and /r/reactjs." xmlUrl="https://swyx.io/rss.xml/" htmlUrl="https://swyx.io/" />
+        
+    
+        
+        <outline type="rss" title="Cassie Evans" text="Cassie is a web developer making things at Greensock, and she also has lots of interesting things to share on her blog and on Codepen. SVG and Animation are her specialties." xmlUrl="https://cassie.codes/feed.xml" htmlUrl="https://www.cassie.codes/" />
+        
+    
+        
+        <outline type="rss" title="Sia Karamalegos" text="Sia is a freelance web developer, a Women Techmakers ambassador, and a co-organizer for GDG New Orleans. She&#39;s also a great speaker on web performance and other topics." xmlUrl="https://sia.codes/feed/feed.xml" htmlUrl="https://sia.codes" />
+        
+    
+        
+        <outline type="rss" title="Matthew Somerville" text="Matthew is a programmer based in Birmingham, UK, where he sings, plays, and is guarded by a inquisitive toddler. His case studies on how to make websites smaller and more resilient are brilliant reads." xmlUrl="http://dracos.co.uk/feed/" htmlUrl="http://dracos.co.uk/" />
+        
+    
+        
+        <outline type="rss" title="Tantek Çelik" text="Tantek is the co-founder of IndieWebCamp and currently works on open web standards at Mozilla. Responsible for many CSS and microformat specs, his blog is an absolute treasure trove of knowledge." xmlUrl="https://tantek.com/updates.atom" htmlUrl="https://tantek.com/" />
+        
+    
+        
+        <outline type="rss" title="Tatiana Mac" text="Tatiana is an American designer who builds inclusive, accessible, and ethical products with thoughtful practices. She&#39;s a wonderful speaker on the topic of ethics in technology, which is increasingly important." xmlUrl="https://tatianamac.com/feed/feed.xml" htmlUrl="https://tatianamac.com/" />
+        
+    
+    </body>
+</opml>

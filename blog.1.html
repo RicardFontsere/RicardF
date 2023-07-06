@@ -1,0 +1,767 @@
+<!doctype html>
+<html class="no-js" lang="en"><!--!
+  Oh so you're an inspector?
+  View the source here: https://github.com/maxboeck/mxb
+-->
+
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Ricard Fontserè</title>
+        <link rel="preload" href="assets/fonts/noe-display-medium.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preconnect" href="https://webmention.io">
+        <link rel="stylesheet" href="assets/styles/themes.css">
+        <link rel="stylesheet" href="assets/styles/main.css">
+        <!--
+        ######## SEO and Meta
+        <meta name="description" content="I am Ricard Fontserè, an early career scientist.">
+        <meta property="og:title" content="Ricard Fontserè">
+        <meta property="og:description" content="I am Ricard Fontserè, an early career scientist.">
+        <meta property="og:url" content="https://mxb.dev/">
+        <meta property="og:image" content="https://mxb.dev/assets/images/avatar2.jpg">
+        <meta name="twitter:card" content="summary">
+        <meta name="author" content="Ricard Fontserè">
+        <meta property="og:site_name" content="Max Böck">
+        <meta property="og:locale" content="en_US">
+        <meta name="twitter:site" content="@mxbck">
+        <meta name="twitter:creator" content="@mxbck">
+        <meta property="fb:app_id" content="127677017332959"> 
+        <link rel="canonical" href="https://mxb.dev/">
+        -->
+        <!-- 
+        ######## Fav Icons for Bookmarking my website 
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png@v=1">
+        <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png@v=1" sizes="32x32">
+        <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png@v=1" sizes="16x16">
+        <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg@v=1" color="#1a1a1a">
+        <link rel="shortcut icon" href="assets/images/favicon/favicon.ico@v=1">
+        
+        <link rel="manifest" href="site.webmanifest">
+        -->
+        <meta name="theme-color" content="#1a1a1a">
+        <link type="application/atom+xml" rel="alternate" href="https://mxb.dev/feed.xml" title="Max Böck">
+        <link type="application/atom+xml" rel="alternate" href="notes/feed.xml" title="Max Böck | Notes">
+        <meta name="view-transition" content="same-origin">
+        <script>
+            (function () {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            })();
+        </script>
+    </head>
+
+<body><a href="blog.1.html#main" class="sr-skip-link">skip to main content</a>
+    <div class="titlebar">
+        <div class="titlebar__inner"></div>
+    </div>
+    <div class="hfeed layout" role="document">
+        <div class="themepicker js-themepicker" data-nosnippet hidden>
+            <h3 class="themepicker__title">Select Theme</h3>
+            <ul class="themepicker__list" id="theme-menu">
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Classic'" data-theme="default"><span
+                            class="themepicker__name">Classic</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Dark'" data-theme="dark"><span
+                            class="themepicker__name">Dark</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Koopa Beach'" data-theme="beach"><span
+                            class="themepicker__name">Koopa Beach</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Choco Mountain'" data-theme="choco"><span
+                            class="themepicker__name">Choco Mountain</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Moo Moo Farm'" data-theme="moomoo"><span
+                            class="themepicker__name">Moo Moo Farm</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Bowser&#39;s Castle'" data-theme="bowser"><span
+                            class="themepicker__name">Bowser&#39;s Castle</span> <span
+                            class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Yoshi Valley'" data-theme="yoshi"><span
+                            class="themepicker__name">Yoshi Valley</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Rainbow Road'" data-theme="rainbow"><span
+                            class="themepicker__name">Rainbow Road</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Lobster Life'" data-theme="lobster"><span
+                            class="themepicker__name">Lobster Life</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+                <li class="themepicker__item"><button class="themepicker__btn js-themepicker-themeselect"
+                        aria-label="select color theme 'Hacker News'" data-theme="hackernews"><span
+                            class="themepicker__name">Hacker News</span> <span class="themepicker__palette"><span
+                                class="themepicker__hue themepicker__hue--primary"></span> <span
+                                class="themepicker__hue themepicker__hue--secondary"></span> <span
+                                class="themepicker__hue themepicker__hue--border"></span> <span
+                                class="themepicker__hue themepicker__hue--textoffset"></span> <span
+                                class="themepicker__hue themepicker__hue--text"></span></span></button></li>
+            </ul><button class="iconbtn themepicker__close js-themepicker-close"><span class="sr-only">close
+                    themepicker</span> <svg class="icon icon--close" role="img" aria-hidden="true" width="24"
+                    height="24">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="/assets/icons/icons.sprite.svg#icon-close"></use>
+                </svg></button>
+        </div>
+        <header class="header" role="banner">
+            <div class="header__inner container"><a class="header__brand" href="index.html" rel="home"><img
+                        class="header__avatar"
+                        src="data:image/jpeg;base64,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"
+                        width="48" height="48" alt=""> <span class="header__name"><span>Max Böck</span> <span
+                            class="header__verification" aria-hidden="true"><svg class="icon icon--verified"
+                                version="1.1" viewBox="0,0,24,24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z" />
+                            </svg></span></span></a>
+                <div class="header__nav">
+                    <nav class="nav js-nav" role="navigation" tabindex="-1"><button
+                            class="iconbtn nav__togglebtn js-nav-toggle" aria-expanded="false" aria-controls="nav-menu"
+                            aria-label="toggle menu"><span class="menuicon"><span class="menuicon__bar"></span> <span
+                                    class="menuicon__bar"></span> <span class="menuicon__bar"></span> <span
+                                    class="menuicon__bar"></span></span></button>
+                        <div class="nav__content">
+                            <ul class="nav__menu js-nav-menu" id="nav-menu">
+                                <li class="nav__item"><a href="index.html" class="nav__link"><span class="nav__num"
+                                            aria-hidden="true">01</span> Home</a></li>
+                                <li class="nav__item nav__item--active"><a href="blog.1.html#main" class="nav__link"
+                                        aria-current="page"><span class="nav__num" aria-hidden="true">02</span>
+                                        Writing</a></li>
+                                <li class="nav__item"><a href="notes.1.html" class="nav__link"><span class="nav__num"
+                                            aria-hidden="true">03</span> Notes</a></li>
+                                <li class="nav__item"><a href="about/index.html" class="nav__link"><span
+                                            class="nav__num" aria-hidden="true">04</span> About</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav__bg">
+                            <div class="nav__bg__circle"></div>
+                        </div>
+                    </nav><button class="iconbtn header__themebtn js-themepicker-toggle" aria-expanded="false"
+                        aria-controls="theme-menu"><span class="sr-only">toggle theme panel</span> <svg
+                            class="icon icon--theme" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" role="img" aria-hidden="true">
+                            <path
+                                d="M18 4V3c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V6h1v4H9v11c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-9h8V4h-3z" />
+                        </svg></button>
+                </div>
+            </div>
+        </header>
+        <main class="main container" role="main" id="main" tabindex="-1">
+            <div class="page page--blog">
+                <header class="page__header">
+                    <h1 class="page__title">Writing</h1>
+                </header>
+                <div class="page__content">
+                    <ol reversed class="postlist" start="45">
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2023-01-30"><a
+                                    href="blog/seven-reasons-why-i-dont-write/index.html" class="postlist__link u-url"
+                                    rel="bookmark">7 Reasons why I don&#39;t write</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2023-01-30T00:00:00">30 Jan 2023 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">general</span></div>
+                            <p class="postlist__excerpt p-summary">I didn&#39;t write a lot last year, even though I
+                                wanted to. Here are the things I tell myself that keep me from writing, and why they are
+                                probably bullshit.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2022-11-12"><a
+                                    href="blog/the-indieweb-for-everyone/index.html" class="postlist__link u-url"
+                                    rel="bookmark">The IndieWeb for Everyone</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2022-11-12T00:00:00">12 Nov 2022 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">indieweb</span></div>
+                            <p class="postlist__excerpt p-summary">Many people are looking for alternatives to Twitter.
+                                Can the IndieWeb step up? How can we build better social media for people without
+                                technical knowledge?</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2022-01-25"><a
+                                    href="blog/make-free-stuff/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Make Free Stuff</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2022-01-25T00:00:00">25 Jan 2022 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">general</span></div>
+                            <p class="postlist__excerpt p-summary">On web3, Wordle and the radical concept of building
+                                things for free.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2021-06-11"><a
+                                    href="blog/media-queries-in-times-of-container-queries/index.html"
+                                    class="postlist__link u-url" rel="bookmark">Media Queries in Times of @container</a>
+                            </h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2021-06-11T00:00:00">11 Jun 2021 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">With container queries now on the horizon - will we
+                                need media queries at all?</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2021-05-15"><a
+                                    href="blog/container-queries-web-components/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Container Queries in Web Components</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2021-05-15T00:00:00">15 May 2021 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">Container Queries are one of the most anticipated new
+                                features in CSS. I recently got a chance to play with them a bit and came up with this
+                                demo.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2021-04-26"><a
+                                    href="blog/eleventy-asset-pipeline/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Asset Pipelines in Eleventy</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2021-04-26T00:00:00">26 Apr 2021 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">While some SSGs have a standardized way of handling
+                                assets, Eleventy does not. That&#39;s a good thing! Here are a few possible approaches
+                                you can take.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2021-04-13"><a
+                                    href="blog/medium-share-highlight-eleventy/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Medium-Style Share Highlights in Eleventy</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2021-04-13T00:00:00">13 Apr 2021 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">I built an Eleventy plugin to do Medium-style text
+                                highlights that can be shared. It uses a webcomponent, custom properties and the Web
+                                Share API.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2021-04-04"><a
+                                    href="blog/space-jam/index.html" class="postlist__link u-url" rel="bookmark">Space
+                                    Jam</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2021-04-04T00:00:00">04 Apr 2021 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">I&#39;m running a speed test on the new Space Jam
+                                site: the 1996 version on dial-up VS. the 2021 version on a 3G connection. Who will win?
+                            </p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2021-02-07"><a
+                                    href="blog/webmention-analytics/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Webmention Analytics</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2021-02-07T00:00:00">07 Feb 2021 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code,
+                                    design</span></div>
+                            <p class="postlist__excerpt p-summary">I built a tool to analyze incoming webmentions. This
+                                new side project generates monthly reports to see how and where my content is mentioned.
+                            </p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2021-01-05"><a
+                                    href="blog/persistent-build-folders-netlify/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Making Persistent Build Folders in Netlify</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2021-01-05T00:00:00">05 Jan 2021 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">I recently learned how to make persistent cache
+                                folders that stick around between builds on Netlify, and I&#39;m using it to store
+                                webmention data.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2020-12-19"><a
+                                    href="blog/year-in-review-2020/index.html" class="postlist__link u-url"
+                                    rel="bookmark">A year in review: 2020</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2020-12-19T00:00:00">19 Dec 2020 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">general</span></div>
+                            <p class="postlist__excerpt p-summary">I don&#39;t think I have to tell anyone why this year
+                                sucked. I still want to continue the end-of-the-year blogpost tradition, but focus on
+                                the good things that happened instead.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2020-06-30"><a
+                                    href="blog/the-whimsical-web/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Whimsical Website Club</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2020-06-30T00:00:00">30 Jun 2020 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">design</span></div>
+                            <p class="postlist__excerpt p-summary">The web needs to take itself less seriously. It&#39;s
+                                barely out of its twenties and suddenly it&#39;s all like I can&#39;t make fansites for
+                                hippos anymore, I have businesses to run.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2020-06-18"><a
+                                    href="blog/the-return-of-the-90s-web/index.html" class="postlist__link u-url"
+                                    rel="bookmark">The Return of the 90s Web</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2020-06-18T00:00:00">18 Jun 2020 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">Are we ready to revisit some of the ideas of the
+                                early web again? There are trends that suggest we might just have come full circle - and
+                                I like it.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2020-06-05"><a
+                                    href="blog/human-code/index.html" class="postlist__link u-url" rel="bookmark">Human
+                                    Code</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2020-06-05T00:00:00">05 Jun 2020 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">general</span></div>
+                            <p class="postlist__excerpt p-summary">Some problems can’t be solved with technology. You
+                                can’t code away systemic racism, and you can’t design your way out of a human rights
+                                crisis.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2020-04-30"><a
+                                    href="blog/color-theme-switcher/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Color Theme Switcher</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2020-04-30T00:00:00">30 Apr 2020 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code,
+                                    design</span></div>
+                            <p class="postlist__excerpt p-summary">Let users customize your website with their favorite
+                                color scheme! Your site has a dark mode? Mine has ten different themes now, and
+                                they&#39;re named after Mario Kart 64 race tracks.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2020-04-18"><a
+                                    href="blog/eleventy-resume-builder/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Eleventy Résumé Builder</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2020-04-18T00:00:00">18 Apr 2020 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">A free template to generate semantic, accessible
+                                &amp; resilient résumés for the web and print.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2020-03-22"><a
+                                    href="blog/emergency-website-kit/index.html" class="postlist__link u-url"
+                                    rel="bookmark">The Emergency Website Kit</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2020-03-22T00:00:00">22 Mar 2020 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">In cases of emergency, many organizations need a
+                                quick way to publish critical information. But existing (CMS) websites are often unable
+                                to handle sudden spikes in traffic.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2020-02-20"><a
+                                    href="blog/making-a-gigposter/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Making a Gigposter</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2020-02-20T00:00:00">20 Feb 2020 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">design</span></div>
+                            <p class="postlist__excerpt p-summary">How to create a custom print design for a Rage
+                                against the Machine show using Illustrator, Photoshop and zero drawing skills.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2019-12-31"><a
+                                    href="blog/year-in-review-2019.1.html" class="postlist__link u-url" rel="bookmark">A
+                                    year in review: 2019</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2019-12-31T00:00:00">31 Dec 2019 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">general</span></div>
+                            <p class="postlist__excerpt p-summary">As the final hours of 2019 are winding down, I want
+                                to take a moment and look back at everything that happened this year - because it was a
+                                busy one.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2019-11-28"><a
+                                    href="blog/webclerks-conf-2019/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Webclerks Conference</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2019-11-28T00:00:00">28 Nov 2019 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">general</span></div>
+                            <p class="postlist__excerpt p-summary">It has been three days now since I stood on stage at
+                                Urania Vienna, hearing Manuel close our very first conference. I&#39;m still not really
+                                sure how we pulled that off.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2019-10-20"><a
+                                    href="blog/roads/index.html" class="postlist__link u-url" rel="bookmark">Roads</a>
+                            </h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2019-10-20T00:00:00">20 Oct 2019 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">general</span></div>
+                            <p class="postlist__excerpt p-summary">There&#39;s a small town that needs a new road. The
+                                old road is pretty worn and full of potholes, so it&#39;s time for a change.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2019-08-11"><a
+                                    href="blog/indieweb-link-sharing/index.html" class="postlist__link u-url"
+                                    rel="bookmark">IndieWeb Link Sharing</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2019-08-11T00:00:00">11 Aug 2019 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">A pain point of the IndieWeb is that it&#39;s
+                                sometimes not as convenient to share content as it is on the common social media
+                                platforms. Let&#39;s improve that.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2019-06-11"><a
+                                    href="blog/good-enough/index.html" class="postlist__link u-url" rel="bookmark">Good
+                                    Enough</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2019-06-11T00:00:00">11 Jun 2019 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">writing</span></div>
+                            <p class="postlist__excerpt p-summary">Feeling like something isn&#39;t ready yet can keep
+                                many good ideas from going public. I&#39;m trying out a new strategy to combat
+                                &quot;publishing anxiety&quot;.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2019-06-05"><a
+                                    href="blog/the-css-mindset/index.html" class="postlist__link u-url"
+                                    rel="bookmark">The CSS Mindset</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2019-06-05T00:00:00">05 Jun 2019 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">CSS can be difficult to grasp if you think about it
+                                in terms of a &quot;traditional&quot; programming language. There is a certain mindset
+                                involved that helps to understand why it works the way it does.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2019-04-14"><a
+                                    href="blog/webring-kit/index.html" class="postlist__link u-url" rel="bookmark">A
+                                    Webring Kit</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2019-04-14T00:00:00">14 Apr 2019 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">After Tatiana Mac proposed to bring webrings back, I
+                                hacked something new together over the weekend: A starter kit for hosting your own
+                                webring!</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2019-01-31"><a
+                                    href="blog/on-simplicity/index.html" class="postlist__link u-url" rel="bookmark">On
+                                    Simplicity</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2019-01-31T00:00:00">31 Jan 2019 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">general</span></div>
+                            <p class="postlist__excerpt p-summary">We assume that complex problems always require
+                                complex solutions. But sometimes the smarter way to build things is to try and take some
+                                pieces away, rather than add more to it.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2019-01-10"><a
+                                    href="blog/using-webmentions-on-static-sites/index.html"
+                                    class="postlist__link u-url" rel="bookmark">Using Webmentions in Eleventy</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2019-01-10T00:00:00">10 Jan 2019 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">How to pull interactions from social media platforms
+                                like Twitter back to your own site, using Webmentions, webmention.io and Bridgy.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2019-01-06"><a
+                                    href="blog/syndicating-content-to-twitter-with-netlify-functions/index.html"
+                                    class="postlist__link u-url" rel="bookmark">Syndicating Content to Twitter</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2019-01-06T00:00:00">06 Jan 2019 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">How to automatically publish content from a static
+                                site on Twitter, using Eleventy and Netlify&#39;s lambda functions.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2018-09-16"><a
+                                    href="blog/hurricane-web/index.html" class="postlist__link u-url" rel="bookmark">The
+                                    Hurricane Web</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2018-09-16T00:00:00">16 Sep 2018 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">general</span></div>
+                            <p class="postlist__excerpt p-summary">As Hurricane Florence makes its way across the US
+                                southeast coast, many people are stuck in areas with severe flooding. These people rely
+                                on outside information, yet have limited bandwidth and power.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2018-07-02"><a
+                                    href="blog/connection-aware-components/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Connection-Aware Components</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2018-07-02T00:00:00">02 Jul 2018 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">The Network Information API provides insight into a
+                                user&#39;s network condition. Combining it with React might enable us to build sites
+                                that can respond to different connection speeds.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2018-06-14"><a
+                                    href="blog/layouts-of-tomorrow/index.html" class="postlist__link u-url"
+                                    rel="bookmark">The Layouts of Tomorrow</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2018-06-14T00:00:00">14 Jun 2018 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code,
+                                    design</span></div>
+                            <p class="postlist__excerpt p-summary">I went over to dribbble in search of fresh webdesign
+                                ideas - how hard is it to build a non-standard layout, given the modern CSS tools we
+                                have today? An experiment on CodePen.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2018-06-02"><a
+                                    href="blog/semantic-jsx/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Semantic JSX</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2018-06-02T00:00:00">02 Jun 2018 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">The React JSX Syntax offers a layer of abstraction
+                                that&#39;s very useful for component-based systems - but it&#39;s easy to forget that
+                                everything you write ultimately compiles down to HTML.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2018-04-28"><a
+                                    href="blog/css-grid-admin-dashboard/index.html" class="postlist__link u-url"
+                                    rel="bookmark">CSS Grid Admin Dashboard</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2018-04-28T00:00:00">28 Apr 2018 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">A closer look at how CSS grid layout can be used in
+                                production today, including fallback styles for flexbox.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2017-08-30"><a
+                                    href="blog/css-skeleton-screens/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Building Skeleton Screens with CSS</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2017-08-30T00:00:00">30 Aug 2017 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">Designing loading states on the web is often
+                                overlooked or dismissed as an afterthought. Building an experience that works with slow
+                                connections is not only a developer&#39;s challenge...</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2017-08-23"><a
+                                    href="blog/offline-forms/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Offline-Friendly Forms</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2017-08-23T00:00:00">23 Aug 2017 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">Forms on the web don&#39;t usually play nice with bad
+                                connections. If you try to submit a form while offline, you&#39;ll most likely just lose
+                                your input. Here&#39;s how we might fix that.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2017-07-12"><a
+                                    href="blog/youre-offline/index.html" class="postlist__link u-url"
+                                    rel="bookmark">You&#39;re Offline</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2017-07-12T00:00:00">12 Jul 2017 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">A truly responsive website should adapt to all kinds
+                                of situations. Besides different viewport sizes, there are other factors to consider. A
+                                change in connectivity is one of them.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2017-07-07"><a
+                                    href="blog/how-to-turn-your-website-into-a-pwa/index.html"
+                                    class="postlist__link u-url" rel="bookmark">How to turn your website into a PWA</a>
+                            </h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2017-07-07T00:00:00">07 Jul 2017 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">A Progressive Web App, or PWA, uses modern web
+                                capabilities to deliver an app-like user experience. Any website can be a PWA -
+                                here&#39;s how to do it.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2017-03-08"><a
+                                    href="blog/bottle-slider-wiggle-effect/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Bottle Slider Wiggle Effect</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2017-03-08T00:00:00">08 Mar 2017 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code,
+                                    design</span></div>
+                            <p class="postlist__excerpt p-summary">I built this product slider as part of a wine shop I
+                                was working on in 2015, and since it&#39;s also featured in a case study here on my
+                                site, I had a couple of people asking me how the animation was done.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2017-02-06"><a
+                                    href="blog/prototyping-app-with-static-html/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Prototyping an App in Static HTML</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2017-02-06T00:00:00">06 Feb 2017 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">I recently worked on a larger new web app. The
+                                product was in its early stages, so one of the first big tasks was to come up with a
+                                prototype for the UI design.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2017-01-25"><a
+                                    href="blog/three-goals-for-2017/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Three Goals for 2017</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2017-01-25T00:00:00">25 Jan 2017 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">general</span></div>
+                            <p class="postlist__excerpt p-summary">At the beginning of 2017, I did some thinking about
+                                where I wanted things to go for me.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2017-01-16"><a
+                                    href="blog/the-relaunch-post/index.html" class="postlist__link u-url"
+                                    rel="bookmark">The Relaunch Post</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2017-01-16T00:00:00">16 Jan 2017 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">Two weeks into 2017, I used some spare time to
+                                relaunch this website. I do this as a way for me to try new things and catch up on
+                                latest techniques.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2015-04-25"><a
+                                    href="blog/frontend-developer-interview-answers/index.html"
+                                    class="postlist__link u-url" rel="bookmark">Frontend Developer Interview Answers</a>
+                            </h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2015-04-25T00:00:00">25 Apr 2015 </time><span
+                                    aria-hidden="true">&sdot;</span> <span class="postlist__tags p-category">code</span>
+                            </div>
+                            <p class="postlist__excerpt p-summary">I recently came across the H5BP’s Frontend Developer
+                                Interview Questions. It’s a collection of questions related to building websites, meant
+                                for employers to vet potential candidates for a job.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2015-01-03"><a
+                                    href="blog/the-lost-art-of-the-gigposter/index.html" class="postlist__link u-url"
+                                    rel="bookmark">The Lost Art of the Gigposter</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2015-01-03T00:00:00">03 Jan 2015 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">design</span></div>
+                            <p class="postlist__excerpt p-summary">I&#39;m a big fan of good looking music posters. I
+                                used to do them myself back when I was in school, and my living room still features some
+                                of my favourite designs.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2014-12-14"><a
+                                    href="blog/music-to-work-to/index.html" class="postlist__link u-url"
+                                    rel="bookmark">Music to work to</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2014-12-14T00:00:00">14 Dec 2014 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">general</span></div>
+                            <p class="postlist__excerpt p-summary">I don&#39;t like to work in silence. Especially when
+                                I&#39;m doing something that needs concentration, I keep my best focus with the right
+                                background music.</p>
+                        </li>
+                        <li class="postlist__item h-entry">
+                            <h2 class="postlist__title p-name" style="view-transition-name: post-2012-10-17"><a
+                                    href="blog/travelling.1.html" class="postlist__link u-url"
+                                    rel="bookmark">Travelling</a></h2>
+                            <div class="postlist__meta"><time class="postlist__date dt-published"
+                                    datetime="2012-10-17T00:00:00">17 Oct 2012 </time><span
+                                    aria-hidden="true">&sdot;</span> <span
+                                    class="postlist__tags p-category">general</span></div>
+                            <p class="postlist__excerpt p-summary">For the last couple of years, I&#39;ve been fortunate
+                                enough to travel to quite a few beautiful places on this planet. Here are some of them.
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </main>
+        <footer class="footer h-card" role="contentinfo">
+            <div class="footer__inner container">
+                <p class="footer__item"><strong>&copy; 2012&ndash;2023</strong><br><a class="p-name u-url" rel="me"
+                        href="https://mxb.dev">Max Böck</a></p>
+                <p class="footer__item"><strong>Subscribe</strong><br><a href="mailinglist.html">Mailing List</a></p>
+                <p class="footer__item"><strong>Social</strong><br><a href="https://front-end.social/@mxbck"
+                        title="Mastodon" rel="me">Mastodon</a> / <a href="https://github.com/maxboeck" title="Github"
+                        rel="me">Github</a></p>
+                <p class="footer__item"><strong>Legal</strong><br><a href="privacy/index.html">Privacy Policy</a></p>
+                <p class="footer__item"><strong>Links</strong><br><a href="blogroll/index.html">Blogroll</a></p>
+                <p class="footer__item footer__item--right u-desktop-only"><a href="https://speedlify.mxb.dev/mxb.dev/"
+                        class="footer__speedlify"><speedlify-score speedlify-url="https://speedlify.mxb.dev"
+                            hash="7dda0135" score weight></speedlify-score></a></p>
+                <p class="footer__item footer__item--right"><a
+                        href="https://github.com/maxboeck/mxb/tree/master/./src/pages/blog.njk" class="footer__icon"
+                        title="Edit this page on Github"><span class="sr-only">Edit this page on Github</span> <svg
+                            class="icon icon--github" role="img" aria-hidden="true" width="24" height="24">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xlink:href="/assets/icons/icons.sprite.svg#icon-github"></use>
+                        </svg> </a><a href="feed.xml" class="footer__icon" title="RSS Feed"><span class="sr-only">RSS
+                            Feed</span> <svg class="icon icon--feed" role="img" aria-hidden="true" width="24"
+                            height="24">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xlink:href="/assets/icons/icons.sprite.svg#icon-feed"></use>
+                        </svg></a></p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/scripts/main.js" defer="defer"></script>
+</body>
+
+</html>
