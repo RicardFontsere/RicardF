@@ -3,20 +3,20 @@
     <title>Max Böck</title>
     <subtitle>Max Böck is a professional front-end developer based in Vienna, Austria.</subtitle>
     <link href="https://mxb.dev/feed.xml" rel="self" type="application/atom+xml" />
-    <link href="https://mxb.dev" rel="alternate" type="text/html"/>
+    <link href="https://mxb.dev" rel="alternate" type="text/html" />
     <author>
         <name>Max Böck</name>
     </author>
-    
+
     <updated>2023-01-30T00:00:00Z</updated>
-    
+
     <id>https://mxb.dev/</id>
-        <entry>
-            <title>7 Reasons why I don&#39;t write</title>
-            <link href="https://mxb.dev/blog/seven-reasons-why-i-dont-write/"/>
-            <updated>2023-01-30T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/seven-reasons-why-i-dont-write/</id>
-            <content type="html"><![CDATA[
+    <entry>
+        <title>7 Reasons why I don&#39;t write</title>
+        <link href="https://mxb.dev/blog/seven-reasons-why-i-dont-write/" />
+        <updated>2023-01-30T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/seven-reasons-why-i-dont-write/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">I have recently been made aware that the frequency of new content published on my site has gone down quite a bit.</p>
 <p>Ok fine, I <a href="https://front-end.social/@matuzo/109768438608948867">trash-talked Manuel’s website</a> on Mastodon and he correctly pointed out that while I wrote an impressive two (2) blogposts last year, he wrote around 90 (while also doing talks, audits, raising an infant daughter and probably training for a marathon or some shit like that, I mean let’s face it the guy is annoyingly productive).</p>
 <p>I know I was slacking off a bit and those numbers speak for themselves. While I generally want to write, ideas rarely make it all the way to a published post.</p>
@@ -72,13 +72,13 @@ Cassie Evans: <a href="https://www.cassie.codes/posts/my-typical-day/">My typica
 <p>In any case, that’s one more post in the bank!</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>The IndieWeb for Everyone</title>
-            <link href="https://mxb.dev/blog/the-indieweb-for-everyone/"/>
-            <updated>2022-11-12T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/the-indieweb-for-everyone/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>The IndieWeb for Everyone</title>
+        <link href="https://mxb.dev/blog/the-indieweb-for-everyone/" />
+        <updated>2022-11-12T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/the-indieweb-for-everyone/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">Dear Reader,</p>
 <p>Since there’s a good chance that you <em>-like me-</em> are involved in web development and/or have a special interest in technology, I want you to play along and engage in a thought experiment for this post:</p>
 <p><strong>Imagine you’re a regular user.</strong></p>
@@ -123,13 +123,13 @@ Cassie Evans: <a href="https://www.cassie.codes/posts/my-typical-day/">My typica
 <p>Just like with migration to another country, it takes two sides to make this work: Easing access at the border to let folks in, and the willingness to accept a shared culture - to make that new place a home.</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Make Free Stuff</title>
-            <link href="https://mxb.dev/blog/make-free-stuff/"/>
-            <updated>2022-01-25T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/make-free-stuff/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Make Free Stuff</title>
+        <link href="https://mxb.dev/blog/make-free-stuff/" />
+        <updated>2022-01-25T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/make-free-stuff/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">When I first fell in love with the web, it was a radically different place. Aside from the many technical improvements that have been made, I feel like the general culture of the web has changed a lot as well.</p>
 <p>Growing up with the web as a teenager meant having access to an infinite treasure chest of content. A lot of that content was spread across blogs, forums and personal websites.</p>
 <p>The overwhelming motivation behind it seemed to be <em>“I made something, here it is”</em>. Sharing things for the sake of showing them to the world. Somebody had created something, then put it online so you could see it. Visit their website (wait for the dial-up to finish), and it’s yours.</p>
@@ -173,13 +173,13 @@ Cassie Evans: <a href="https://www.cassie.codes/posts/my-typical-day/">My typica
 <p>👉 <em>Update: On Feb 1, Wordle was eventually sold to the New York Times for upwards of a million dollars. <a href="https://twitter.com/powerlanguish/status/1488263944309731329/photo/1">Josh Wardle claims</a> the game will still remain free to play for all.</em></p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Media Queries in Times of @container</title>
-            <link href="https://mxb.dev/blog/media-queries-in-times-of-container-queries/"/>
-            <updated>2021-06-11T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/media-queries-in-times-of-container-queries/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Media Queries in Times of @container</title>
+        <link href="https://mxb.dev/blog/media-queries-in-times-of-container-queries/" />
+        <updated>2021-06-11T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/media-queries-in-times-of-container-queries/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">With container queries now on the horizon - will we need media queries at all? Is there a future where we build responsive interfaces completely without them?</p>
 <p>Ethan, who coined the term <a href="https://alistapart.com/article/responsive-web-design/">responsive web design</a> over a decade ago, has recently said that media-query-less layouts are certainly within bounds:</p>
 <blockquote>
@@ -242,13 +242,13 @@ I took the bait and had a look at some of my projects - and yes, most of what I 
 <aside class="signup js-signup-widget" data-nosnippet=""><div class="signup__front"><h2 class="signup__title">By the way...</h2><div class="signup__desc">I'm running an email list for people interested in front-end development and the future of CSS. If you enjoy that kind of stuff, you can join here and I'll notify you when I publish a new post. No strings attached, unsubscribe anytime!</div><div class="signup__form"><form action="https://dev.us18.list-manage.com/subscribe/post" method="POST" class="form form--signup"><div class="form__body"><input type="hidden" name="u" value="64781452976687d0f4f2ea370" /> <input type="hidden" name="id" value="772b9208b5" /> <input type="hidden" name="SOURCE" value="/blog/media-queries-in-times-of-container-queries/" /><div class="form__fields"><p class="form__field"><label for="mce-FNAME" class="form__label">First Name (optional)</label> <input type="text" class="form__input" value="" name="FNAME" id="mce-FNAME" placeholder="Bob" /></p><p class="form__field"><label for="mce-EMAIL" class="form__label">Email Address</label> <input type="email" class="form__input" value="" name="EMAIL" id="mce-EMAIL" placeholder="bob@gmail.com" required="" /></p></div><div class="sr-only" aria-hidden="true"><input type="text" name="b_64781452976687d0f4f2ea370_772b9208b5" tabindex="-1" value="" /></div></div><div class="form__actions"><button type="submit" class="btn btn--primary" name="subscribe">Subscribe</button><div class="form__feedback js-signup-widget-feedback" hidden=""></div><div class="spinner"><div class="spinner__layercontainer"><div class="spinner__layer spinner__layer--1"><div class="spinner__circle-clipper spinner__left"><div class="spinner__circle"></div></div><div class="spinner__gap-patch"><div class="spinner__circle"></div></div><div class="spinner__circle-clipper spinner__right"><div class="spinner__circle"></div></div></div><div class="spinner__layer spinner__layer--2"><div class="spinner__circle-clipper spinner__left"><div class="spinner__circle"></div></div><div class="spinner__gap-patch"><div class="spinner__circle"></div></div><div class="spinner__circle-clipper spinner__right"><div class="spinner__circle"></div></div></div><div class="spinner__layer spinner__layer--3"><div class="spinner__circle-clipper spinner__left"><div class="spinner__circle"></div></div><div class="spinner__gap-patch"><div class="spinner__circle"></div></div><div class="spinner__circle-clipper spinner__right"><div class="spinner__circle"></div></div></div><div class="spinner__layer spinner__layer--4"><div class="spinner__circle-clipper spinner__left"><div class="spinner__circle"></div></div><div class="spinner__gap-patch"><div class="spinner__circle"></div></div><div class="spinner__circle-clipper spinner__right"><div class="spinner__circle"></div></div></div></div></div></div></form></div></div><div class="signup__back js-signup-backside"></div><div class="signup__icon"><svg class="icon icon--check" role="img" aria-hidden="true" width="24" height="24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/icons.sprite.svg#icon-check"></use></svg></div></aside>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Container Queries in Web Components</title>
-            <link href="https://mxb.dev/blog/container-queries-web-components/"/>
-            <updated>2021-05-15T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/container-queries-web-components/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Container Queries in Web Components</title>
+        <link href="https://mxb.dev/blog/container-queries-web-components/" />
+        <updated>2021-05-15T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/container-queries-web-components/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">Container Queries are one of the most anticipated new features in CSS. I recently got a chance to play with them a bit and take the new syntax for a spin.</p>
 <p>I came up with this demo of a book store. Each of the books is draggable and can be moved to one of three sections, with varying available space. Depending on where it is placed, different styles will be applied to the book. The <a href="https://codepen.io/mxbck/pen/XWMrMOp">full source code</a> is up on Codepen. Here’s how it looks:</p>
 <div class="extend">
@@ -299,13 +299,13 @@ I took the bait and had a look at some of my projects - and yes, most of what I 
 </ul>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Asset Pipelines in Eleventy</title>
-            <link href="https://mxb.dev/blog/eleventy-asset-pipeline/"/>
-            <updated>2021-04-26T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/eleventy-asset-pipeline/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Asset Pipelines in Eleventy</title>
+        <link href="https://mxb.dev/blog/eleventy-asset-pipeline/" />
+        <updated>2021-04-26T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/eleventy-asset-pipeline/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">"Asset Pipeline" is a fancy way of describing a process that compiles CSS, Javascript or other things you want to transform from a bunch of sources to a production-ready output file.</p>
 <p>While some static site generators have a standardized way of handling assets, Eleventy does not. That’s a good thing - it gives you the flexibility to handle this any way you want, rather than forcing an opinionated way of doing things on you that might not fit your specific needs.</p>
 <p>That flexibility comes at a price though: you need to figure out your preferred setup first. I’ve tinkered with this a lot, so I wanted to share my learnings here. BTW: My personal setup “Eleventastic” is also <a href="https://github.com/maxboeck/eleventastic">available on Github</a>.</p>
@@ -350,13 +350,13 @@ I took the bait and had a look at some of my projects - and yes, most of what I 
 <p>The beauty of unopinionated tools like Eleventy is that you get to choose what fits you best. If it works, it works! 😉</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Medium-Style Share Highlights in Eleventy</title>
-            <link href="https://mxb.dev/blog/medium-share-highlight-eleventy/"/>
-            <updated>2021-04-13T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/medium-share-highlight-eleventy/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Medium-Style Share Highlights in Eleventy</title>
+        <link href="https://mxb.dev/blog/medium-share-highlight-eleventy/" />
+        <updated>2021-04-13T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/medium-share-highlight-eleventy/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">I took a stab at building <a href="https://github.com/maxboeck/eleventy-plugin-share-highlight">a plugin</a> for Eleventy that lets me highlight selected pieces of text and provide users with an easy way to share them.</p>
 <p>This feature was first made popular by <a href="https://medium.com/">Medium</a>, where authors can pick a “top highlight” in a post and hovering it will show a tooltip with sharing options. I wanted something like this for independent blogging too, so I came up with a custom solution.</p>
 <p>Here’s how that looks in action:</p>
@@ -404,13 +404,13 @@ I took the bait and had a look at some of my projects - and yes, most of what I 
 <p>If you know your way around webcomponents and have a suggestion on how to improve this thing, please feel free to <a href="https://github.com/maxboeck/eleventy-plugin-share-highlight">submit a PR</a>!</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Space Jam</title>
-            <link href="https://mxb.dev/blog/space-jam/"/>
-            <updated>2021-04-04T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/space-jam/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Space Jam</title>
+        <link href="https://mxb.dev/blog/space-jam/" />
+        <updated>2021-04-04T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/space-jam/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">The iconic 1996 "Space Jam" <a href="https://www.spacejam.com/">website</a> was recently relaunched to promote the new movie. Thankfully, the developers still <a href="https://www.spacejam.com/1996/">kept the old site</a> around to preserve its intergalactic legacy.</p>
 <p>It’s not often that a website stays up mostly unchanged for 25 years. So out of curiosity, I ran a quick check on both sites.</p>
 <p>Unsurprisingly, the new site is a lot heavier than the original: with <strong>4.673KB vs. 120KB</strong>, the new site is about <strong>39 times the size</strong> of the old one. That’s because the new site has a trailer video, high-res images and a lot more Javascript:</p>
@@ -452,13 +452,13 @@ I took the bait and had a look at some of my projects - and yes, most of what I 
 <p>We just keep filling the available <em>space, jamming</em> up the pipes in the process so nothing actually gets faster. Well, at least the dial-up sound is gone now.</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Webmention Analytics</title>
-            <link href="https://mxb.dev/blog/webmention-analytics/"/>
-            <updated>2021-02-07T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/webmention-analytics/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Webmention Analytics</title>
+        <link href="https://mxb.dev/blog/webmention-analytics/" />
+        <updated>2021-02-07T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/webmention-analytics/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">I'm a fan of webmentions. I've written about <a href="https://mxb.dev/blog/using-webmentions-on-static-sites/">how to use them</a> before, and I'm quite happy with having them on my site.</p>
 <p>However, it can get difficult to see what’s going on with them - especially if there’s a lot of “background noise”. Many sites just scrape content from well-known blogs and republish it for SEO juice. If that content includes a link to your site, it can lead to webmention spam.</p>
 <p>Unlike on social media, you also don’t get notifications or reports about incoming webmentions. You’re just handed a bunch of raw data to use however you like. That’s part of the beauty of the Indieweb though: you can tailor it to whatever suits you best.</p>
@@ -500,13 +500,13 @@ You can see it in action in <a href="https://webmentions.mxb.dev/">this demo</a>
 <div class="callout callout--info"><span class="callout__icon"><svg class="icon icon--info" role="img" aria-hidden="true" width="24" height="24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/icons.sprite.svg#icon-info"></use></svg></span><div class="callout__content"><p>Keep in mind that this is still a very early version of a weekend side project, so there's probably a few things to iron out. Cheers!</p></div></div>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Making Persistent Build Folders in Netlify</title>
-            <link href="https://mxb.dev/blog/persistent-build-folders-netlify/"/>
-            <updated>2021-01-05T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/persistent-build-folders-netlify/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Making Persistent Build Folders in Netlify</title>
+        <link href="https://mxb.dev/blog/persistent-build-folders-netlify/" />
+        <updated>2021-01-05T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/persistent-build-folders-netlify/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">Static Site Generators are all-or-nothing. Each time they build a new version of the site, they throw away everything that was created before and start from scratch.</p>
 <p>That’s usually what you want to ensure everything is up-to-date. But there are special cases when keeping parts of the previous build around makes sense. For example, If you fetch lots of data from an external source during your build, it might make sense to cache that data and re-use it again in the future.</p>
 <p>I recently found such a case when working on the Eleventy webmentions feature. For each build, a script queries the webmention.io API and fetches all the webmentions for the site. That can be <strong>a lot</strong> of data - and most of it stays the same, so fetching everything new again each time is sort of wasteful.</p>
@@ -537,13 +537,13 @@ For the manifest file, let’s just set a name:</p>
 <p>And that’s about it!</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>A year in review: 2020</title>
-            <link href="https://mxb.dev/blog/year-in-review-2020/"/>
-            <updated>2020-12-19T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/year-in-review-2020/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>A year in review: 2020</title>
+        <link href="https://mxb.dev/blog/year-in-review-2020/" />
+        <updated>2020-12-19T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/year-in-review-2020/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">I don't think I have to tell anyone why this year sucked, what with the pandemic and all. 2020 is going down in history as a massive crapstorm.</p>
 <p>Still, I want to <a href="https://mxb.dev/blog/year-in-review-2019">continue the tradition</a> of “end-of-the-year” blogposts and since there’s already enough doom out there these days, I’m trying to focus on the good things that happened instead.</p>
 <h2 id="h-work"><a class="heading-anchor" href="https://mxb.dev/blog/year-in-review-2020/#h-work" aria-hidden="true">#</a> Work</h2>
@@ -603,13 +603,13 @@ For the manifest file, let’s just set a name:</p>
 </ul>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Whimsical Website Club</title>
-            <link href="https://mxb.dev/blog/the-whimsical-web/"/>
-            <updated>2020-06-30T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/the-whimsical-web/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Whimsical Website Club</title>
+        <link href="https://mxb.dev/blog/the-whimsical-web/" />
+        <updated>2020-06-30T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/the-whimsical-web/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">The web needs to take itself less seriously. It's barely out of its twenties and suddenly it's all like "I can't make fansites for hippos anymore, I have businesses to run".</p>
 <p>It used to be cooler. It used to be <span style="font-family: 'Comic Sans MS', cursive; font-weight: 700; letter-spacing: 2px;">weirder</span>.</p>
 <p>As Sarah Drasner puts it in <a href="https://css-tricks.com/in-defense-of-a-fussy-website/">“In Defense of a Fussy Website”</a>:</p>
@@ -630,13 +630,13 @@ Just <a href="https://github.com/maxboeck/whimsical/issues/new?template=add-this
 <p>Let’s see some fussy websites!</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>The Return of the 90s Web</title>
-            <link href="https://mxb.dev/blog/the-return-of-the-90s-web/"/>
-            <updated>2020-06-18T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/the-return-of-the-90s-web/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>The Return of the 90s Web</title>
+        <link href="https://mxb.dev/blog/the-return-of-the-90s-web/" />
+        <updated>2020-06-18T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/the-return-of-the-90s-web/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">In big cultural concepts like music or fashion, things have a way of coming around full circle.
 I'm pretty sure someday grunge will come back as a hot new sample, and at some point our kids might think frosted hair tips are totally cool.</p>
 <p>When I look at some of the trends on the web today, I wonder if we’re at that point yet. I wonder if we’re ready to revisit some of the ideas of the early web again.</p>
@@ -689,13 +689,13 @@ I'm pretty sure someday grunge will come back as a hot new sample, and at some p
 <p>So maybe the second 90s can be even better than the first. At least we’re done with NSYNC this time.</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Human Code</title>
-            <link href="https://mxb.dev/blog/human-code/"/>
-            <updated>2020-06-05T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/human-code/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Human Code</title>
+        <link href="https://mxb.dev/blog/human-code/" />
+        <updated>2020-06-05T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/human-code/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">Violence and injustice are omnipresent these days. We’re faced with an ugly truth and it’s gut-wrenching to watch.</p>
 <p>Through my developer-centric filter bubble, I sometimes see the tech world react to times of crisis. Often our first instinct seems to be to turn to technology. Build something to fix this.</p>
 <p>I get that if all you have is a hammer, everything looks like a nail. I’m guilty of this myself. That knee-jerk reaction might come from a genuine desire to help - and if code is what we know best, it’s understandable that we want to apply these skills here too.</p>
@@ -715,13 +715,13 @@ I'm pretty sure someday grunge will come back as a hot new sample, and at some p
 <p>Code won’t bring us forward here. People will.</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Color Theme Switcher</title>
-            <link href="https://mxb.dev/blog/color-theme-switcher/"/>
-            <updated>2020-04-30T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/color-theme-switcher/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Color Theme Switcher</title>
+        <link href="https://mxb.dev/blog/color-theme-switcher/" />
+        <updated>2020-04-30T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/color-theme-switcher/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">Last year, the design gods decided that dark modes were the new hotness. "Light colors are for suckers", they laughed, drinking matcha tea on their fixie bikes or whatever.</p>
 <p>And so every operating system, app and even some websites (mine included) suddenly had to come up with a dark mode. Fortunately though, this coincided nicely with widespread support for CSS <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/--*">custom properties</a> and the introduction of a new <code>prefers-color-scheme</code> media query.</p>
 <p>There’s lots of tutorials on <a href="https://css-tricks.com/dark-modes-with-css/">how to build dark modes</a> already, but why limit yourself to light and dark? Only a Sith deals in absolutes.</p>
@@ -786,13 +786,13 @@ I’ll wait.</p>
 <p>Please don’t use that one.</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Eleventy Résumé Builder</title>
-            <link href="https://mxb.dev/blog/eleventy-resume-builder/"/>
-            <updated>2020-04-18T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/eleventy-resume-builder/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Eleventy Résumé Builder</title>
+        <link href="https://mxb.dev/blog/eleventy-resume-builder/" />
+        <updated>2020-04-18T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/eleventy-resume-builder/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">Last week I came across <a href="https://ericwbailey.design/writing/how-to-not-make-a-resume-in-react.html">this post</a> by Eric Bailey. In it he describes some of the issues he's seeing with overengineered, inaccessible résumés.</p>
 <p>This again addresses the over-reliance on powerful Javascript frameworks like React, even in cases where simple semantic HTML might be better suited for the task.</p>
 <p>I’m currently putting my self-isolated weekend time towards side projects, and I thought this could be something I can tackle. So I built something new:</p>
@@ -819,13 +819,13 @@ I’ll wait.</p>
 <aside class="signup js-signup-widget" data-nosnippet=""><div class="signup__front"><h2 class="signup__title">By the way...</h2><div class="signup__desc">I'm running an email list for people interested in front-end development and static sites. If you enjoy that kind of stuff, you can join here and I'll notify you whenever I publish a new post. No strings attached, unsubscribe anytime.</div><div class="signup__form"><form action="https://dev.us18.list-manage.com/subscribe/post" method="POST" class="form form--signup"><div class="form__body"><input type="hidden" name="u" value="64781452976687d0f4f2ea370" /> <input type="hidden" name="id" value="772b9208b5" /> <input type="hidden" name="SOURCE" value="/blog/eleventy-resume-builder/" /><div class="form__fields"><p class="form__field"><label for="mce-FNAME" class="form__label">First Name (optional)</label> <input type="text" class="form__input" value="" name="FNAME" id="mce-FNAME" placeholder="Phil" /></p><p class="form__field"><label for="mce-EMAIL" class="form__label">Email Address</label> <input type="email" class="form__input" value="" name="EMAIL" id="mce-EMAIL" placeholder="phil@website.com" required="" /></p></div><div class="sr-only" aria-hidden="true"><input type="text" name="b_64781452976687d0f4f2ea370_772b9208b5" tabindex="-1" value="" /></div></div><div class="form__actions"><button type="submit" class="btn btn--primary" name="subscribe">Subscribe</button><div class="form__feedback js-signup-widget-feedback" hidden=""></div><div class="spinner"><div class="spinner__layercontainer"><div class="spinner__layer spinner__layer--1"><div class="spinner__circle-clipper spinner__left"><div class="spinner__circle"></div></div><div class="spinner__gap-patch"><div class="spinner__circle"></div></div><div class="spinner__circle-clipper spinner__right"><div class="spinner__circle"></div></div></div><div class="spinner__layer spinner__layer--2"><div class="spinner__circle-clipper spinner__left"><div class="spinner__circle"></div></div><div class="spinner__gap-patch"><div class="spinner__circle"></div></div><div class="spinner__circle-clipper spinner__right"><div class="spinner__circle"></div></div></div><div class="spinner__layer spinner__layer--3"><div class="spinner__circle-clipper spinner__left"><div class="spinner__circle"></div></div><div class="spinner__gap-patch"><div class="spinner__circle"></div></div><div class="spinner__circle-clipper spinner__right"><div class="spinner__circle"></div></div></div><div class="spinner__layer spinner__layer--4"><div class="spinner__circle-clipper spinner__left"><div class="spinner__circle"></div></div><div class="spinner__gap-patch"><div class="spinner__circle"></div></div><div class="spinner__circle-clipper spinner__right"><div class="spinner__circle"></div></div></div></div></div></div></form></div></div><div class="signup__back js-signup-backside"></div><div class="signup__icon"><svg class="icon icon--check" role="img" aria-hidden="true" width="24" height="24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/icons.sprite.svg#icon-check"></use></svg></div></aside>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>The Emergency Website Kit</title>
-            <link href="https://mxb.dev/blog/emergency-website-kit/"/>
-            <updated>2020-03-22T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/emergency-website-kit/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>The Emergency Website Kit</title>
+        <link href="https://mxb.dev/blog/emergency-website-kit/" />
+        <updated>2020-03-22T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/emergency-website-kit/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">In cases of emergency, many organizations need a quick way to publish critical information. But existing (CMS) websites are often unable to handle sudden spikes in traffic.</p>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just received a shelter-in-place emergency alert with a web address for more information. Clicked the link. The site is down. All emergency sites should be static.</p>&mdash; Nicholas C. Zakas (@slicknet) <a href="https://twitter.com/slicknet/status/1239972949819404291?ref_src=twsrc%5Etfw">March 17, 2020</a></blockquote>
 <p>To make things worse, natural disasters can also damage local network infrastructure, sometimes leaving people with very poor mobile connections.</p>
@@ -855,13 +855,13 @@ I’ll wait.</p>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0WCNOHCuqYU?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Making a Gigposter</title>
-            <link href="https://mxb.dev/blog/making-a-gigposter/"/>
-            <updated>2020-02-20T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/making-a-gigposter/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Making a Gigposter</title>
+        <link href="https://mxb.dev/blog/making-a-gigposter/" />
+        <updated>2020-02-20T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/making-a-gigposter/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">Long before I wrote my first line of code, all I wanted to do was make music. I went to a music-focused high school, played in a couple of bands, and I loved it.</p>
 <p>I also loved making flyers, posters and CD artwork for local bands - It’s actually what got me started in design and ultimately led me to build for the web. You see I can’t really draw, so my only option to create the images in my head was with the help of computers, which I was able to use. Creating posters became a hobby of mine.</p>
 <p>These days, I’m usually too busy to find time for that hobby. But I keep a collection of my favourite gigposters and once in a while, when an occasion arises, I get to do one myself.</p>
@@ -937,13 +937,13 @@ I’ll wait.</p>
     </a>
 </div>
             ]]></content>
-        </entry>
-        <entry>
-            <title>A year in review: 2019</title>
-            <link href="https://mxb.dev/blog/year-in-review-2019/"/>
-            <updated>2019-12-31T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/year-in-review-2019/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>A year in review: 2019</title>
+        <link href="https://mxb.dev/blog/year-in-review-2019/" />
+        <updated>2019-12-31T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/year-in-review-2019/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">As the final hours of 2019 are winding down, I want to take a moment and look back at everything that happened this year - because it was a busy one.</p>
 <h2 id="h-work"><a class="heading-anchor" href="https://mxb.dev/blog/year-in-review-2019/#h-work" aria-hidden="true">#</a> Work</h2>
 <p>At the beginning of 2019, I became a partner at <a href="https://www.codista.com/">Codista</a>, the software studio where I’ve been working for some time now. Thomas, Luis and I now run the company as a trio, and building together has been great.</p>
@@ -999,13 +999,13 @@ I’ll wait.</p>
 <p>That’s all folks. See you tomorrow!</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Webclerks Conference</title>
-            <link href="https://mxb.dev/blog/webclerks-conf-2019/"/>
-            <updated>2019-11-28T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/webclerks-conf-2019/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Webclerks Conference</title>
+        <link href="https://mxb.dev/blog/webclerks-conf-2019/" />
+        <updated>2019-11-28T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/webclerks-conf-2019/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">It has been three days now since I stood on stage at Urania Vienna, hearing Manuel close our <a href="https://webclerks.at/">very first conference</a>. I'm still not really sure how we pulled that off.</p>
 <figure class="extend">
     <img src="https://mxb.dev/blog/webclerks-conf-2019/webclerks-team.jpg" alt="The webclerks team on stage in front of a screen" />
@@ -1058,13 +1058,13 @@ I’ll wait.</p>
 <p>Thank you! 🎉</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Roads</title>
-            <link href="https://mxb.dev/blog/roads/"/>
-            <updated>2019-10-20T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/roads/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Roads</title>
+        <link href="https://mxb.dev/blog/roads/" />
+        <updated>2019-10-20T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/roads/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">There's a small town that needs a new road. The old road is pretty worn and full of potholes, so it's time for a change.</p>
 <p>First plans look promising. It’s really nice and modern. The old road had sidewalks and a bike lane, but these don’t really fit in with the new design and take too much time to build. Nobody on the planning committee knows any pedestrians or cyclists anyway, so the project doesn’t really focus on that.</p>
 <p>Soon people get to work. Instead of regular concrete though, the construction crew decides to use a new cutting-edge synthetic asphalt. It was developed by a big construction company from the city that uses it to build a 12-lane highway in the nation’s capital - but they say anyone can use it.</p>
@@ -1079,13 +1079,13 @@ But that’s the nature of progress - just how these things are done today.</p>
 <p>It’s the future.</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>IndieWeb Link Sharing</title>
-            <link href="https://mxb.dev/blog/indieweb-link-sharing/"/>
-            <updated>2019-08-11T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/indieweb-link-sharing/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>IndieWeb Link Sharing</title>
+        <link href="https://mxb.dev/blog/indieweb-link-sharing/" />
+        <updated>2019-08-11T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/indieweb-link-sharing/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">A pain point of the IndieWeb is that it's sometimes not as convenient to share content as it is on the common social media platforms.</p>
 <p>Posting a new short <a href="https://mxb.dev/notes">“note”</a> on my site currently requires me to commit a new markdown file to the repository on Github. That’s doable (for a developer), but not really convenient, especially when you’re on the go and just want to share a quick link. Twitter and other social media platforms literally make this as easy as clicking a single button, which makes it tempting to just post stuff straight to them. That’s why I wanted to improve this process for my site.</p>
 <p>A quick Google search revealed that smarter people have already solved that problem. I came across this <a href="https://timkadlec.com/remembers/2018-02-06-saving-links-to-my-site-with-a-bookmarklet/">blog post by Tim Kadlec</a> who describes adapting someone else’s link sharing technique for his (Hugo-powered) blog. That just left me the task of adapting it for my setup (Eleventy, Netlify) and customizing a few details.</p>
@@ -1129,13 +1129,13 @@ But that’s the nature of progress - just how these things are done today.</p>
 <p>I’m quite happy with how this turned out, as it feels really simple and straightforward. One step closer to IndieWeb bliss!</p>
 <aside class="signup js-signup-widget" data-nosnippet=""><div class="signup__front"><h2 class="signup__title">By the way...</h2><div class="signup__desc">I'm running an email list for people interested in personal websites and the IndieWeb. If you enjoy that kind of stuff, you can join here and I'll notify you whenever I publish a new post. No strings attached, unsubscribe anytime.</div><div class="signup__form"><form action="https://dev.us18.list-manage.com/subscribe/post" method="POST" class="form form--signup"><div class="form__body"><input type="hidden" name="u" value="64781452976687d0f4f2ea370" /> <input type="hidden" name="id" value="772b9208b5" /> <input type="hidden" name="SOURCE" value="/blog/indieweb-link-sharing/" /><div class="form__fields"><p class="form__field"><label for="mce-FNAME" class="form__label">First Name (optional)</label> <input type="text" class="form__input" value="" name="FNAME" id="mce-FNAME" placeholder="Bob" /></p><p class="form__field"><label for="mce-EMAIL" class="form__label">Email Address</label> <input type="email" class="form__input" value="" name="EMAIL" id="mce-EMAIL" placeholder="bob@gmail.com" required="" /></p></div><div class="sr-only" aria-hidden="true"><input type="text" name="b_64781452976687d0f4f2ea370_772b9208b5" tabindex="-1" value="" /></div></div><div class="form__actions"><button type="submit" class="btn btn--primary" name="subscribe">Subscribe</button><div class="form__feedback js-signup-widget-feedback" hidden=""></div><div class="spinner"><div class="spinner__layercontainer"><div class="spinner__layer spinner__layer--1"><div class="spinner__circle-clipper spinner__left"><div class="spinner__circle"></div></div><div class="spinner__gap-patch"><div class="spinner__circle"></div></div><div class="spinner__circle-clipper spinner__right"><div class="spinner__circle"></div></div></div><div class="spinner__layer spinner__layer--2"><div class="spinner__circle-clipper spinner__left"><div class="spinner__circle"></div></div><div class="spinner__gap-patch"><div class="spinner__circle"></div></div><div class="spinner__circle-clipper spinner__right"><div class="spinner__circle"></div></div></div><div class="spinner__layer spinner__layer--3"><div class="spinner__circle-clipper spinner__left"><div class="spinner__circle"></div></div><div class="spinner__gap-patch"><div class="spinner__circle"></div></div><div class="spinner__circle-clipper spinner__right"><div class="spinner__circle"></div></div></div><div class="spinner__layer spinner__layer--4"><div class="spinner__circle-clipper spinner__left"><div class="spinner__circle"></div></div><div class="spinner__gap-patch"><div class="spinner__circle"></div></div><div class="spinner__circle-clipper spinner__right"><div class="spinner__circle"></div></div></div></div></div></div></form></div></div><div class="signup__back js-signup-backside"></div><div class="signup__icon"><svg class="icon icon--check" role="img" aria-hidden="true" width="24" height="24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/icons.sprite.svg#icon-check"></use></svg></div></aside>
             ]]></content>
-        </entry>
-        <entry>
-            <title>Good Enough</title>
-            <link href="https://mxb.dev/blog/good-enough/"/>
-            <updated>2019-06-11T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/good-enough/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Good Enough</title>
+        <link href="https://mxb.dev/blog/good-enough/" />
+        <updated>2019-06-11T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/good-enough/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">There is a thing that happens to me while writing. I start with a fresh idea, excited to shape it into words. But as time passes, I lose confidence.</p>
 <p>The original concept starts to look shallow or irrelevant, and the phrases sound awkward and repetitive. It just doesn’t feel good anymore.</p>
 <p>I don’t think that’s unique to me - In fact I guess one of the reasons why many people would rather write a series of tweets than a longform blog post is that the expectations we set for ourselves are much higher with the latter. Posts need to be “done right” - there’s a greater risk of falling into the trap of perfectionism.</p>
@@ -1180,13 +1180,13 @@ They get swallowed by these voices of doubt and end up collecting dust in a <cod
 </ul>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>The CSS Mindset</title>
-            <link href="https://mxb.dev/blog/the-css-mindset/"/>
-            <updated>2019-06-05T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/the-css-mindset/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>The CSS Mindset</title>
+        <link href="https://mxb.dev/blog/the-css-mindset/" />
+        <updated>2019-06-05T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/the-css-mindset/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">Ah yes, CSS. Hardly a week passes without it being the topic of a heated online discussion. It's too hard. It's too simple. It's unpredictable. It's not a real programming language. Peter Griffin struggles with blinds dot gif.</p>
 <p>I don’t know why CSS sparks so many different emotions in developers, but I have a hunch as to why it can sometimes seem illogical or frustrating: You need a certain <strong>mindset</strong> to write good CSS.</p>
 <p>Now, you probably need a mindset for coding in general, but the declarative nature of CSS makes it particularly difficult to grasp, especially if you think about it in terms of a “traditional” programming language.</p>
@@ -1247,13 +1247,13 @@ They get swallowed by these voices of doubt and end up collecting dust in a <cod
 </ul>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>A Webring Kit</title>
-            <link href="https://mxb.dev/blog/webring-kit/"/>
-            <updated>2019-04-14T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/webring-kit/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>A Webring Kit</title>
+        <link href="https://mxb.dev/blog/webring-kit/" />
+        <updated>2019-04-14T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/webring-kit/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">After Tatiana Mac proposed to <a href="https://twitter.com/TatianaTMac/status/1114388079630929926">bring webrings back</a>, I hacked something new together over the weekend: A starter kit for hosting your own webring!</p>
 <h2 id="h-what%E2%80%99s-a-webring%3F"><a class="heading-anchor" href="https://mxb.dev/blog/webring-kit/#h-what%E2%80%99s-a-webring%3F" aria-hidden="true">#</a> What’s a Webring?</h2>
 <p>It’s a blast from the past: In the 90s, sites about a common topic could join together in a central index. To be a member, you had to embed a little widget on your page that contained a “forward”, a “backward”, and a “random” button. These buttons would then link to the next or previous site in the ring.</p>
@@ -1292,13 +1292,13 @@ They get swallowed by these voices of doubt and end up collecting dust in a <cod
 </ul>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>On Simplicity</title>
-            <link href="https://mxb.dev/blog/on-simplicity/"/>
-            <updated>2019-01-31T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/on-simplicity/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>On Simplicity</title>
+        <link href="https://mxb.dev/blog/on-simplicity/" />
+        <updated>2019-01-31T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/on-simplicity/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">In the 1997 movie "Contact", Jodie Foster discovers an alien signal that contains the construction plans for a spaceship. Trying to assemble it, the engineers are surprised to find that the crew capsule is just an empty metal pod.</p>
 <p>“That shit’s unsafe”, they say (I’m paraphrasing), so they attach a complicated wall-mounted seat to the inside. When the ship launches, that seat starts to pick up heavy vibrations and violently breaks apart. Foster releases her seatbelt seconds before it kills her and ultimately finds that the design was perfect all along, enjoying the rest of the ride in smooth anti-gravity.</p>
 <p>We assume that complex problems always require complex solutions. We try to solve complexity by inventing tools and technologies to address a problem; but in the process we create another layer of complexity that, in turn, causes its own set of issues.</p>
@@ -1314,13 +1314,13 @@ It implies that there is one correct way of doing things, and all other solution
 <p>And if we’re talking DX - I’ll take simplicity over features any day.</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Using Webmentions in Eleventy</title>
-            <link href="https://mxb.dev/blog/using-webmentions-on-static-sites/"/>
-            <updated>2019-01-10T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/using-webmentions-on-static-sites/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Using Webmentions in Eleventy</title>
+        <link href="https://mxb.dev/blog/using-webmentions-on-static-sites/" />
+        <updated>2019-01-10T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/using-webmentions-on-static-sites/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">In last week's post, I talked about syndicating content from a static site to Twitter. But getting content out is only half the challenge.</p>
 <p>The real value of social media (apart from the massive ad revenue and dystopian data mining) is in the reactions we get from other people. The likes, reposts and replies - they’re what makes it “social”. To gain control over our own content, we need to capture these interactions as well and pull them back to our sites. In indieweb terms, that’s known as <a href="https://indieweb.org/backfeed">“backfeed”</a>.</p>
 <h2 id="h-hello-webmentions"><a class="heading-anchor" href="https://mxb.dev/blog/using-webmentions-on-static-sites/#h-hello-webmentions" aria-hidden="true">#</a> Hello Webmentions</h2>
@@ -1380,13 +1380,13 @@ Each post will then loop over its webmentions and output them underneath.</p>
 </ul>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Syndicating Content to Twitter</title>
-            <link href="https://mxb.dev/blog/syndicating-content-to-twitter-with-netlify-functions/"/>
-            <updated>2019-01-06T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/syndicating-content-to-twitter-with-netlify-functions/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Syndicating Content to Twitter</title>
+        <link href="https://mxb.dev/blog/syndicating-content-to-twitter-with-netlify-functions/" />
+        <updated>2019-01-06T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/syndicating-content-to-twitter-with-netlify-functions/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">One of the core principles of the <a href="https://indieweb.org/">IndieWeb</a> is that people should own their own content. Controlling how and where they publish makes users more independent from big content silos.</p>
 <p>However, the main reason why people publish on Twitter / Medium or other platforms is that they can reach a much bigger audience there - everyone’s on them, so you have to be too. Publishing on a personal site can cut you off from those readers. That’s why it might be a good idea to automatically post copies of your content on these sites whenever you publish something new.</p>
 <p>This practice is known as “<abbr title="Publish on Own Site, Syndicate Elsewhere">POSSE</abbr>” (Publish on your Own Site, Syndicate Elsewhere). It enables authors to reach people on other platforms while still keeping control of the original content source.</p>
@@ -1434,13 +1434,13 @@ Each post will then loop over its webmentions and output them underneath.</p>
 </ul>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>The Hurricane Web</title>
-            <link href="https://mxb.dev/blog/hurricane-web/"/>
-            <updated>2018-09-16T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/hurricane-web/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>The Hurricane Web</title>
+        <link href="https://mxb.dev/blog/hurricane-web/" />
+        <updated>2018-09-16T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/hurricane-web/</id>
+        <content type="html"><![CDATA[
                 <p>As Hurricane Florence makes its way across the US southeast coast, many people are stuck in areas with severe flooding. These people rely on outside information, yet have limited bandwidth and power.</p>
 <p>To help them, news platforms like <a href="http://lite.cnn.io/en">CNN</a> and <a href="https://text.npr.org/">NPR</a> provide text-only versions of their sites:</p>
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">We have a text-only version of our website for anyone who needs to stay up-to-date on Hurricane Florence news and keep their battery and data usage to a minimum: <a href="https://t.co/n2UDDKmlja">https://t.co/n2UDDKmlja</a></p>&mdash; NPR (@NPR) <a href="https://twitter.com/NPR/status/1040580925329948673?ref_src=twsrc%5Etfw">September 14, 2018</a></blockquote>
@@ -1484,13 +1484,13 @@ Each post will then loop over its webmentions and output them underneath.</p>
 <p>Make it withstand hurricanes.</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Connection-Aware Components</title>
-            <link href="https://mxb.dev/blog/connection-aware-components/"/>
-            <updated>2018-07-02T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/connection-aware-components/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Connection-Aware Components</title>
+        <link href="https://mxb.dev/blog/connection-aware-components/" />
+        <updated>2018-07-02T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/connection-aware-components/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">Over the last decade, we have learned to embrace the uncertainty of developing for the web.</p>
 <p>We don’t design sites for specific screen dimensions anymore, we make them responsive. We don’t assume ideal browsers and devices, we use progressive enhancement. When it comes to connectivity though, we still treat that as a binary choice: you’re either on- or offline.</p>
 <p>Real connections are not that simple. Depending on your location, network condition or data plan, speeds can range from painfully slow to blazingly fast. The concept of “online” can be a drastically different experience for different users, especially on mobile.</p>
@@ -1562,13 +1562,13 @@ Each post will then loop over its webmentions and output them underneath.</p>
 </ul>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>The Layouts of Tomorrow</title>
-            <link href="https://mxb.dev/blog/layouts-of-tomorrow/"/>
-            <updated>2018-06-14T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/layouts-of-tomorrow/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>The Layouts of Tomorrow</title>
+        <link href="https://mxb.dev/blog/layouts-of-tomorrow/" />
+        <updated>2018-06-14T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/layouts-of-tomorrow/</id>
+        <content type="html"><![CDATA[
                 <p>If you’ve been to any web design talk in the last couple of years, you’ve probably seen this famous tweet by Jon Gold:</p>
 <blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">which one of the two possible websites are you currently designing? <a href="https://t.co/ZD0uRGTqqm">pic.twitter.com/ZD0uRGTqqm</a></p>&mdash; Jon Gold (@jongold) <a href="https://twitter.com/jongold/status/694591217523363840?ref_src=twsrc%5Etfw">2. Februar 2016</a></blockquote>
 <p>It mocks the fact that a lot of today’s websites look the same, as they all follow the same standard layout practices that we’ve collectively decided to use. Building a blog? Main column, widget sidebar. A marketing site? Big hero image, three teaser boxes (it <em>has</em> to be three).</p>
@@ -1666,13 +1666,13 @@ Each post will then loop over its webmentions and output them underneath.</p>
 </ul>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Semantic JSX</title>
-            <link href="https://mxb.dev/blog/semantic-jsx/"/>
-            <updated>2018-06-02T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/semantic-jsx/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Semantic JSX</title>
+        <link href="https://mxb.dev/blog/semantic-jsx/" />
+        <updated>2018-06-02T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/semantic-jsx/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">The React JSX Syntax offers a layer of abstraction that's very useful for component-based systems - but it's easy to forget that everything you write ultimately compiles down to HTML.</p>
 <p>Encapsulating pieces of UI this way makes it easier to compose larger systems, but it also hides the “bare bones” structure of an application. That’s not a bad thing - but I feel like it’s one of the reasons why people learning frontend today can get a distorted understanding of web development.</p>
 <p>If you’re writing code for a browser, you’re writing HTML. That’s why it’s important to know your semantics, and choose the correct element for the task at hand.</p>
@@ -1725,13 +1725,13 @@ The container could be styled as a list, grid, or a slider - and it can dynamica
 </ul>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>CSS Grid Admin Dashboard</title>
-            <link href="https://mxb.dev/blog/css-grid-admin-dashboard/"/>
-            <updated>2018-04-28T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/css-grid-admin-dashboard/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>CSS Grid Admin Dashboard</title>
+        <link href="https://mxb.dev/blog/css-grid-admin-dashboard/" />
+        <updated>2018-04-28T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/css-grid-admin-dashboard/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">Good News! <a href="https://www.w3.org/TR/css-grid-1/">CSS Grid</a> has been out for some time now, and browser support is very good. If you're building stuff on the web, this is definitely a tool you should have on your belt.</p>
 <p>Not only is grid worth checking out, it’s also ready to be used in production, today. You know - on the <em>real</em> web.</p>
 <figure class="extend">
@@ -1789,13 +1789,13 @@ The container could be styled as a list, grid, or a slider - and it can dynamica
 </ul>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Building Skeleton Screens with CSS</title>
-            <link href="https://mxb.dev/blog/css-skeleton-screens/"/>
-            <updated>2017-08-30T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/css-skeleton-screens/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Building Skeleton Screens with CSS</title>
+        <link href="https://mxb.dev/blog/css-skeleton-screens/" />
+        <updated>2017-08-30T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/css-skeleton-screens/</id>
+        <content type="html"><![CDATA[
                 <p><em>This article was originally published on <a href="https://css-tricks.com/building-skeleton-screens-css-custom-properties/">CSS-Tricks.com</a>.</em></p>
 <p class="lead">Designing loading states on the web is often overlooked or dismissed as an afterthought. Performance is not only a developer's responsibility - building an experience that works with slow connections can be a design challenge as well.</p>
 <p>While developers need to pay attention to things like minification or caching, designers have to think about how the UI will look and behave while it is in a “loading” or “offline” state.</p>
@@ -1850,13 +1850,13 @@ Plus we can use some of the variables (think <code>--avatar-size</code>, <code>-
 </ul>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Offline-Friendly Forms</title>
-            <link href="https://mxb.dev/blog/offline-forms/"/>
-            <updated>2017-08-23T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/offline-forms/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Offline-Friendly Forms</title>
+        <link href="https://mxb.dev/blog/offline-forms/" />
+        <updated>2017-08-23T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/offline-forms/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">Forms on the web don't usually play nice with bad connections. If you try to submit a form while offline, you'll most likely just lose your input. Here's how we might fix that.</p>
 <p><small>TL;DR: Here’s the <a href="https://codepen.io/mxbck/pen/ayYGGO/" target="_blank">CodePen Demo</a> of this post.</small></p>
 <p>With the introduction of Service Workers, developers are now able to supply experiences on the web that will work even without an internet connection. While it’s relatively easy to cache static resources, things like forms that require server interaction are harder to optimize. It is possible to provide a somewhat useful offline fallback though.</p>
@@ -1895,13 +1895,13 @@ We could extend the <code>handleSubmit</code> function to display some kind of f
   <script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </div>
             ]]></content>
-        </entry>
-        <entry>
-            <title>You&#39;re Offline</title>
-            <link href="https://mxb.dev/blog/youre-offline/"/>
-            <updated>2017-07-12T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/youre-offline/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>You&#39;re Offline</title>
+        <link href="https://mxb.dev/blog/youre-offline/" />
+        <updated>2017-07-12T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/youre-offline/</id>
+        <content type="html"><![CDATA[
                 <figure>
   <img src="https://mxb.dev/blog/youre-offline/notification-sample.jpg" alt="" />
 </figure>
@@ -1957,13 +1957,13 @@ Go ahead, I’ll wait.</p>
 </ul>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>How to turn your website into a PWA</title>
-            <link href="https://mxb.dev/blog/how-to-turn-your-website-into-a-pwa/"/>
-            <updated>2017-07-07T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/how-to-turn-your-website-into-a-pwa/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>How to turn your website into a PWA</title>
+        <link href="https://mxb.dev/blog/how-to-turn-your-website-into-a-pwa/" />
+        <updated>2017-07-07T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/how-to-turn-your-website-into-a-pwa/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">A Progressive Web App, or PWA, uses modern web capabilities to deliver an app-like user experience. Any website can be a PWA - here's how to do it.</p>
 <figure style="text-align:center">
   <img src="https://mxb.dev/blog/how-to-turn-your-website-into-a-pwa/install.jpg" alt="" />
@@ -2039,13 +2039,13 @@ For smaller, mostly static sites, you can have it precache every image, HTML, Ja
 </ul>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Bottle Slider Wiggle Effect</title>
-            <link href="https://mxb.dev/blog/bottle-slider-wiggle-effect/"/>
-            <updated>2017-03-08T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/bottle-slider-wiggle-effect/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Bottle Slider Wiggle Effect</title>
+        <link href="https://mxb.dev/blog/bottle-slider-wiggle-effect/" />
+        <updated>2017-03-08T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/bottle-slider-wiggle-effect/</id>
+        <content type="html"><![CDATA[
                 <div class="extend">
   <video poster="https://mxb.dev/blog/bottle-slider-wiggle-effect/bottleslider-still.jpg" preload="" autoplay="autoplay" loop="loop" width="960" height="360">
     <source src="https://mxb.dev/blog/bottle-slider-wiggle-effect/bottleslider.webm" type="video/webm" />
@@ -2079,13 +2079,13 @@ Two things are important here:</p>
 <p>Aaand you’re done! Not much to it, but makes for a nice touch and a cool thing to show off. 🍾</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Prototyping an App in Static HTML</title>
-            <link href="https://mxb.dev/blog/prototyping-app-with-static-html/"/>
-            <updated>2017-02-06T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/prototyping-app-with-static-html/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Prototyping an App in Static HTML</title>
+        <link href="https://mxb.dev/blog/prototyping-app-with-static-html/" />
+        <updated>2017-02-06T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/prototyping-app-with-static-html/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">I recently worked on a larger new web app. The product was in its early stages, so one of the first big tasks was to come up with a prototype for the UI design.</p>
 <p>I started doing some pen-and-paper mockups and some concepts in Sketch, but the project details weren’t clearly defined yet, and things would change very frequently. I had to redo a lot of components or modify them often to reflect changes I’ve made somewhere else. It didn’t feel efficient.</p>
 <p>Essentially, I was just drawing pictures of an interface. A pixel canvas simply wasn’t the right medium for this.</p>
@@ -2151,13 +2151,13 @@ When you’re done, save your schema (in case it changes later), and download th
 <p>I made a custom boilerplate based on Gulp using this approach (plus a few other goodies). It’s <a href="https://github.com/maxboeck/static-prototype-kit">available on Github</a>, feel free to use/extend it anyway you want.</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Three Goals for 2017</title>
-            <link href="https://mxb.dev/blog/three-goals-for-2017/"/>
-            <updated>2017-01-25T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/three-goals-for-2017/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Three Goals for 2017</title>
+        <link href="https://mxb.dev/blog/three-goals-for-2017/" />
+        <updated>2017-01-25T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/three-goals-for-2017/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">I've been a freelance web developer for about seven years now.</p>
 <p>I started making websites when I was still in school - I used to do fun little sites for local bands, events and other things. At some point I decided to do it professionally, registered my business and had my first real clients.</p>
 <p>I’ve learned a lot since then, and I still do now. At the beginning of 2017, I did some thinking about where I wanted things to go for me.</p>
@@ -2239,13 +2239,13 @@ You need to research the whys behind any given topic to be able to explain it to
 <p>I have some changes coming up this year, and I’m excited to see where it will take me!</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>The Relaunch Post</title>
-            <link href="https://mxb.dev/blog/the-relaunch-post/"/>
-            <updated>2017-01-16T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/the-relaunch-post/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>The Relaunch Post</title>
+        <link href="https://mxb.dev/blog/the-relaunch-post/" />
+        <updated>2017-01-16T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/the-relaunch-post/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">Two weeks into 2017, I used some spare time to relaunch my website.</p>
 <p>I do this almost every year - not (only) because of my neverending quest to optimize the shit out of it, but because it’s a great way for me to try new things I want to learn on a “real life” project.</p>
 <p>Altough it’s a fairly simple site - basically just a small portfolio section, a blog and a contact form, it’s still a good exercise to see how different modern workflows can come into play.</p>
@@ -2372,13 +2372,13 @@ It can be integrated in the build process to check for changes everytime the sit
 <p>Alright, that’s it! Let’s see how much of this still holds up in 2018. See you then!</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Frontend Developer Interview Answers</title>
-            <link href="https://mxb.dev/blog/frontend-developer-interview-answers/"/>
-            <updated>2015-04-25T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/frontend-developer-interview-answers/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Frontend Developer Interview Answers</title>
+        <link href="https://mxb.dev/blog/frontend-developer-interview-answers/" />
+        <updated>2015-04-25T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/frontend-developer-interview-answers/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">
 I recently came across the H5BP’s <a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions">Frontend Developer Interview Questions</a>. It’s a collection of questions related to building websites, meant for employers to vet potential candidates for a job.
 </p>
@@ -2392,13 +2392,13 @@ It was an interesting exercise because it got me thinking a lot about these fund
   <img src="https://mxb.dev/blog/frontend-developer-interview-answers/ihavenoideawhatimdoing.jpg" alt="I have no idea what I'm doing" />
 </figure>
             ]]></content>
-        </entry>
-        <entry>
-            <title>The Lost Art of the Gigposter</title>
-            <link href="https://mxb.dev/blog/the-lost-art-of-the-gigposter/"/>
-            <updated>2015-01-03T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/the-lost-art-of-the-gigposter/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>The Lost Art of the Gigposter</title>
+        <link href="https://mxb.dev/blog/the-lost-art-of-the-gigposter/" />
+        <updated>2015-01-03T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/the-lost-art-of-the-gigposter/</id>
+        <content type="html"><![CDATA[
                 <p>I’m a big fan of good looking band art. Sadly though, unlike other countries, Austria doesn’t really have a culture of well designed concert posters - they’re usually just bold type on bright neon paper stapled to a signpost. So for a long time, collecting and designing covers and gig posters for local bands has been one of my favourite hobbies. I just love when music and design come together like this.</p>
 <p>There are some very talented people out there dedicated to poster art. Some of my personal heroes, for example, include <a href="http://www.dkngstudios.com/work/gig-posters/">DKNG Studios</a>, <a href="http://ollymoss.com/">Olly Moss</a> and <a href="http://tragicsunshine.com/band_posters/">Kevin Tong</a>. Go check em out if you have time, they’re all brilliant.</p>
 <p>Here are a few of my own works that I made over the years:</p>
@@ -2440,13 +2440,13 @@ It was an interesting exercise because it got me thinking a lot about these fund
 </figure>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Music to work to</title>
-            <link href="https://mxb.dev/blog/music-to-work-to/"/>
-            <updated>2014-12-14T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/music-to-work-to/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Music to work to</title>
+        <link href="https://mxb.dev/blog/music-to-work-to/" />
+        <updated>2014-12-14T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/music-to-work-to/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">
 I don't like to work in silence. Especially when I'm doing something that needs concentration, I keep my best focus with the right background music. 
 </p>
@@ -2461,13 +2461,13 @@ I don't like to work in silence. Especially when I'm doing something that needs 
 <p>Another good ambient noise generator is <a href="http://defonic.com/">defonic.com</a>, a website with even more sources for you to choose from. You can mix your own custom background symphony.</p>
 
             ]]></content>
-        </entry>
-        <entry>
-            <title>Travelling</title>
-            <link href="https://mxb.dev/blog/travelling/"/>
-            <updated>2012-10-17T00:00:00Z</updated>
-            <id>https://mxb.dev/blog/travelling/</id>
-            <content type="html"><![CDATA[
+    </entry>
+    <entry>
+        <title>Travelling</title>
+        <link href="https://mxb.dev/blog/travelling/" />
+        <updated>2012-10-17T00:00:00Z</updated>
+        <id>https://mxb.dev/blog/travelling/</id>
+        <content type="html"><![CDATA[
                 <p class="lead">
   For the last couple of years, I've been fortunate enough to see quite a few beautiful places on this planet. 
 </p>
@@ -2518,4 +2518,5 @@ I don't like to work in silence. Especially when I'm doing something that needs 
 </figure>
 
             ]]></content>
-        </entry></feed>
+    </entry>
+</feed>
